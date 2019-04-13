@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login_app_name">Telecomm</string>
+    <string name="pc_login_hint">PC Telecomm вошел в систему</string>
+    <string name="lucky_money_hint">С наилучшими пожеланиями</string>
+    <string name="opneplanet_start_openplanet">Старт Телекомм！</string>
+    <string name="openplanet_welcome_use">Добро пожаловать в Telecomm</string>
+    <string name="guide_btn_into_app">Enter Telecomm</string>
+    <string name="scan_code_to_download">Сканировать код загрузки Telecomm</string>
+    <string name="black_diamond_intro">Присоединяйтесь к Telecomm Mine Pool</string>
+    <string name="openplanet_user">Пользователь Telecomm</string>
+    <string name="open_planet_ipcom_user">Пользователь Telecomm</string>
+    <string name="open_planet_inviate_bottom_text">Сканирование кода регистрации \ "Telecomm \" аккаунта</string>
+    <string name="open_planet_inviate_poster_tip1">1. Сканирование кода регистрации \ "Telecomm \"</string>
+    <string name="open_planet_packet_poster_tip2">2. Скачать приложение "Telecomm"</string>
+    <string name="NeiKongUploadImageActivity_PCIsOutline">Связь Telecomm на ПК не онлайн, и изображение не может быть загружено </string>
+    <string name="NeiKongUploadImageActivity_PCIsOutline1">Обнаружено, что связь Telecomm на стороне ПК не подключена. </string>
+    <string name="NeiKongUploadImageActivity_PCRequestFaild">Не удалось получить онлайн-статус связи Telecomm на стороне ПК</string>
+
+
+    <string name="login_username">имя пользователя</string>
+    <string name="login_password">пароль</string>
+    <string name="login_usernameEdit">Учетная запись пользователя</string>
+    <string name="login_passwordEdit">пароль</string>
+    <string name="login_Button">войти</string>
+    <string name="login_Sign">регистрация</string>
+    <string name="login_remberPassword">Запомнить пароль</string>
+    <string name="login_autoLogin">Автоматический вход</string>
+    <string name="login_findBackPassword">Восстановить пароль</string>
+    <string name="login_input_password_login">Введите пароль для входа</string>
+    <string name="login_sms_code_login">СМС код подтверждения логин</string>
+    <string name="login_reset_password">Сбросить пароль</string>
+    <string name="login_please_input_password">Пожалуйста, введите ваш пароль</string>
+    <string name="email_time">Когда в комнате:</string>
+    <string name="password_intro">Пароль используется для входа в систему, защиты личного ключа и авторизации транзакций, и его надежность очень важна.
+        </string>
+    <string name="wallet_intro">Базовая учетная запись - это ваш уникальный адрес в блокчейне, который генерируется на основе вашего личного ключа.
+        </string>
+    <string name="restore_hint">Пожалуйста, заполните вашу базовую учетную запись «мнемоника», без вашей основной учетной записи не сможет восстановить.
+        </string>
+    <string name="mercury_name">Меркурий</string>
+    <string name="venus_name">Венера</string>
+    <string name="earth_name">земной шар</string>
+    <string name="mars_name">марш</string>
+    <string name="jupiter_name">Юпитер</string>
+    <string name="saturn_name">Сатурн</string>
+    <string name="uranus_name">Уран</string>
+    <string name="neptune_name">Нептун</string>
+    <string name="pluto_name">Плутон</string>
+    <string name="choose_planet">Пожалуйста, выберите планету, на которой вы хотите остаться.</string>
+    <string name="planet_cannot_change_after_choose">(Выбор не будет изменен позже)</string>
+    <string name="settle_the_planet">Оставаться на планете</string>
+    <string name="mercury_name_cn">ртутный</string>
+    <string name="venus_namec_cn">Венера</string>
+    <string name="earth_name_cn">земля</string>
+    <string name="mars_name_cn">Марс</string>
+    <string name="jupiter_name_cn">Юпитер</string>
+    <string name="saturn_name_cn">Сатурн</string>
+    <string name="uranus_name_cn">Уран</string>
+    <string name="neptune_name_cn">Нептун</string>
+    <string name="pluto_name_cn">Плутон</string>
+    <string name="mercury_intro">Английское название: Меркурий \n ближе всего к Солнцу и является самой маленькой планетой в Солнечной системе. </string>
+    <string name="venus_intro">Английское название: Венера \n является второй ближе всего к Солнцу, шестой по величине планетой в Солнечной системе. </string>
+    <string name="earth_intro">Английское название: Земля \n Наш дом - третья планета в Солнечной системе изнутри наружу и пятая по величине планета в Солнечной системе. </string>
+    <string name="mars_intro">Английское название: Марс \n является четвертым по величине от Солнца и седьмой по величине планетой в Солнечной системе.Это также называют огнем в древнем Китае, потому что Марс
+        </string>
+    <string name="jupiter_intro">Английское название: Юпитер \n является пятой планетой от Солнца, и является самой большой, и качество всех других планет
+        </string>
+    <string name="saturn_intro">Английское название: Сатурн \п от солнца является шестой планетой далека, является вторым по величине из восьми планет на планете. </string>
+    <string name="uranus_intro">Английское название: Уран \n - седьмая по величине планета в Солнечной системе от Солнца. С точки зрения диаметра, это третья по величине планета в Солнечной системе. </string>
+    <string name="neptune_intro">Английское название: Нептун \n - восьмая планета, которая вращается вокруг Солнца и является четвертым по величине объектом в Солнечной системе (по диаметру).
+        </string>
+    <string name="pluto_intro">Английское название: Плутон \n Плуто - древнеримская мифология Плутон (Hardis Hades в греческой мифологии) \n исторически
+        </string>
+    <string name="chat_number">Номер счета</string>
+    <string name="im_chat_number">Межзвездный ID</string>
+    <string name="showNumberText">Межзвездный ID</string>
+    <string name="chat_room_name">Звездное племя</string>
+    <string name="group_notification">Межзвездное уведомление</string>
+
+    <string name="chatgroupsettingactivity_qh">ID племени:</string>
+    <string name="chatgroupsettingactivity_qname">Племенное имя</string>
+    <string name="chat_group_info">Племенная информация</string>
+    <string name="chatroom_exit_cannot_exit">Создатели племени не могут покинуть племя</string>
+    <string name="chatroom_num">Межзвездное племя</string>
+    <string name="chatgroupsettingactivity_string1">Мой ник в этом племени</string>
+    <string name="chatgroupsettingactivity_englishname">Племенное английское имя</string>
+    <string name="chatgroupsettingactivity_recommend">Племенное введение</string>
+    <string name="chatgroupsettingactivity_string2">Член племени</string>
+    <string name="chatgroupsettingactivity_string3">Племенной рабочий адрес</string>
+    <string name="chatgroupsettingactivity_string4">Время создания</string>
+    <string name="chatgroupsettingactivity_string6">Это племя было создано в гггг год ММ месяц д.д.</string>
+    <string name="chatgroupsettingactivity_string7">Установите свой псевдоним в племени, этот псевдоним будет отображаться только в этом племени</string>
+    <string name="chatgroupsettingactivity_string8">Пожалуйста, введите новое племенное имя</string>
+    <string name="chatgroupsettingactivity_string9">Изменить племенной аватар</string>
+    <string name="chatgroupsettingactivity_string10">Не удалось получить членов племени</string>
+    <string name="chatgroupsettingactivity_string11">Вы уверены, что хотите распустить племя?</string>
+    <string name="chatgroupsettingactivity_string12">Поделитесь племенем</string>
+    <string name="wechatview_serach_hint_group">Поиск идентификатора племени / названия племени</string>
+    <string name="wechatview_serach_group_menu1">Найди племя</string>
+    <string name="wechatview_serach_group_menu2">Найдите больше племен</string>
+    <string name="leak_canary_display_activity_label">Утечки межзвездной связи</string>
+    <string name="zone_message_hint">Динамика гравитационного поля:</string>
+    <string name="wechatview_input_group_recommend">Пожалуйста, введите племенное введение</string>
+    <string name="wechatview_no_group_recommend">Нет племени введение</string>
+    <string name="wechatview_grouprecommend_title">Племенное введение</string>
+    <string name="wechatview_input_group_english_name">Пожалуйста, введите название племенного английского</string>
+    <string name="wechatview_add_group_error1">Племя не существует или ссылка истекла</string>
+    <string name="im_apply_add_group_text">Вы уверены, что хотите подать заявку на вступление в племя?</string>
+    <string name="im_add_group_text">Вы уверены, что хотите присоединиться к племени?</string>
+    <string name="im_appy_add_group_fail">Подать заявку на вступление в племя не удалось</string>
+    <string name="im_add_group_fail">Присоединиться к Орде не удалось</string>
+    <string name="im_appy_add_group_success">Отправьте заявку успешно, подождите, пока владелец или администратор не рассмотрит</string>
+    <string name="im_add_group_success">Присоединяйтесь к племени успешно</string>
+    <string name="im_add_group_request">Приложение плюс племя</string>
+    <string name="im_money_prepare_tip_3">Племя имеет в общей сложности %1$s</string>
+    <string name="im_create_group">Создать племя</string>
+    <string name="im_select_group_user">Выберите контакт</string>
+    <string name="wechatview_select_group_user">Выберите членов племени</string>
+    <string name="ushare_copy_url">Скопировать ссылку</string>
+    <string name="ushare_system">Совместное использование системы</string>
+    <string name="opneplanet_have_no_message">У вас еще нет новостей!</string>
+    <string name="opneplanet_every_has_possiable">Все может случиться!</string>
+    <string name="opneplanet_access">вводить</string>
+    <string name="openplanet_input_sms_code">Введите код подтверждения SMS</string>
+    <string name="openplanet_input_email_code">Введите код подтверждения почтового ящика</string>
+    <string name="openplanet_input_sms_code1">Пожалуйста, введите код подтверждения SMS</string>
+    <string name="openplanet_get_sms_code">Получить код подтверждения</string>
+    <string name="openplanet_input_sms_code_tip">Отправьте код подтверждения SMS на +86 %1$s, нажав кнопку «Получить код подтверждения»</string>
+    <string name="openplanet_input_authentication_fail">Проверка не удалась</string>
+    <string name="openplanet_again_send">Повторная</string>
+    <string name="openplanet_sendsms_fail">Не удалось отправить код подтверждения, повторите попытку позже</string>
+    <string name="openplanet_has_send_sms_code">Код подтверждения SMS отправлен на +86 %1$s</string>
+    <string name="openplanet_please_input_correct_number">Пожалуйста, введите правильный номер мобильного телефона</string>
+    <string name="openplanet_please_input_correct_email">Пожалуйста, введите правильный адрес электронной почты</string>
+    <string name="openplanet_please_input_correct_account">Пожалуйста, введите правильный номер счета</string>
+    <string name="openplanet_welcome_use1">Чтобы предоставить вам лучший сервис, пожалуйста, введите номер вашей учетной записи.</string>
+    <string name="openplanet_welcome_use_email">Чтобы предоставить вам лучший сервис, пожалуйста, введите свой адрес электронной почты.</string>
+    <string name="openplanet_is_sync_wallet">Синхронизирующий кошелек ..</string>
+    <string name="wechatview_invite_to_group">%1$s пригласил %2$s присоединиться к племени</string>
+    <string name="wechatview_free_to_group">%1$s присоединился к племени</string>
+    <string name="wechatview_agree_to_group">%1$s соглашается подать заявку на присоединение %2$s к племени</string>
+    <string name="guide_tv_quanlian">Полная цепь</string>
+    <string name="guide_tv_all_platform">Полная платформа</string>
+    <string name="wechatview_group_card">Племенная визитная карточка</string>
+    <string name="wechatview_app_icon_url">https://panserver.solarsource.cn/panserver/files/2c6a7eda-7995-4bd6-828b-4ba9b4d2c163/download</string>
+    <string name="guide_tv_mining">добыча</string>
+    <string name="guide_tv_encrypted_communication">Зашифрованная связь</string>
+    <string name="guide_tv_digital_asset">Цифровые активы</string>
+    <string name="guide_dialog__check_baseid_error_hint">Обнаружено, что ваш локальный базовый идентификатор не соответствует серверу. Пожалуйста, войдите снова, чтобы создать или восстановить базовую учетную запись.</string>
+    <string name="guide_tv_function_introduction">Введение функции</string>
+    <string name="wechatview_default_group_avatar_url">https://panserver.solarsource.cn/panserver/files/0bb98df6-cddd-444e-a36c-c50beac4dcd1/download</string>
+    <string name="openplanet_share_helper_contacts">контакт</string>
+    <string name="openplanet_share_helper_sina">BiHiroshi</string>
+    <string name="openplanet_share_helper_wechat">Micro письмо</string>
+    <string name="openplanet_share_helper_wxcircle">WeChat круг</string>
+    <string name="openplanet_share_helper_wechatfavorite">WeChat коллекция</string>
+    <string name="openplanet_share_helper_qq">QQ</string>
+    <string name="openplanet_share_helper_qzone">QQ space</string>
+
+    <string name="openplanet_share_helper_copy_url">Скопировать ссылку</string>
+    <string name="openplanet_share_helper_share_system">Совместное использование системы</string>
+    <string name="openplanet_share_helper_open_browber">Браузер открыт</string>
+    <string name="wechatview_group_notification_1">.. племя</string>
+    <string name="wechatview_group_notification_group">племя</string>
+    <string name="wechatview_secret_please_input_pwd">Пожалуйста, введите базовый пароль</string>
+    <string name="wechatview_secret_dialog_tips">Базовый пароль используется для расшифровки пароля сообщения</string>
+    <string name="web_user_agent_plat_form">IPCom</string>
+    <string name="op_login_email">почтовый ящик</string>
+    <string name="op_login_phone">Номер мобильного телефона</string>
+    <string name="common_text_please_input_email">Пожалуйста, введите ваш адрес электронной почты</string>
+    <string name="open_planet_welcome_permission_denied">В доступе отказано, приложение не работает должным образом</string>
+    <string name="default_info_snippet">Места не найдены, так как разрешение на местоположение отключено.</string>
+    <string name="notifyMsg">Разрешение не предоставлено. Нажмите «Настройка» - «Разрешение» - чтобы предоставить разрешение.</string>
+    <string name="gpsNotifyMsg">
+GPS нужен. Нажмите \ "Настройка \" - \ "Служба определения местоположения \" - чтобы открыть службу GPS.</string>
+
+</resources>

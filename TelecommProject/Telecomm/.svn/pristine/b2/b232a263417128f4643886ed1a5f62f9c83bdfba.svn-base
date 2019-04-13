@@ -1,0 +1,124 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    productFlavors {
+        // Define separate dev and prod product flavors.
+        dev {
+            // dev utilizes minSDKVersion = 21 to allow the Android gradle plugin
+            // to pre-dex each module and produce an APK that can be tested on
+            // Android Lollipop without time consuming dex merging processes.
+            minSdkVersion 21
+            targetSdkVersion 26
+            ndk {
+                abiFilters "armeabi-v7a", "x86"
+            }
+            applicationId "io.telecomm.telecomm"
+            manifestPlaceholders = [app_name          : "Telecomm debug", push_package_name: "io.telecomm.telecomm"
+                                    , huaweipush_appid: "appid=100717039", translatescheme: "openscheme"]
+        }
+        prod {
+            minSdkVersion 20
+            targetSdkVersion 26
+            manifestPlaceholders = [app_name          : "@string/app_name", push_package_name: "io.telecomm.telecomm"
+                                    , huaweipush_appid: "appid=100717039", translatescheme: "openscheme"]
+        }
+    }
+    defaultConfig {
+        applicationId "io.telecomm.telecomm"
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        multiDexEnabled true
+        flavorDimensions "versionCode"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            abiFilters "armeabi-v7a"
+        }
+    }
+
+    packagingOptions {
+        exclude "lib/arm64-v8a/librealm-jni.so"
+        exclude "lib/arm64-v8a/libimagepipeline.so"
+        exclude "lib/arm64-v8a/libwebviewchromium.so"
+        exclude "lib/arm64-v8a/libhwuibp.so"
+        exclude "lib/arm64-v8a/libwebviewchromium_plat_support.so"
+    }
+
+    dexOptions {
+        //dex的multi-dex选项设置与预编译lib库工程有冲突，需要将预编译设置为false
+        preDexLibraries = false
+//        incremental true
+        javaMaxHeapSize "4g"
+        jumboMode = true
+        additionalParameters = ['--multi-dex', '--main-dex-list=' + project.rootDir.absolutePath + '/OpenPlanetGoogle/maindexlist.txt', '--minimal-main-dex',
+                                '--set-max-idx-number=63000']
+
+
+    }
+    signingConfigs {
+        release {
+            storeFile file(rootProject.ext.signFilePath)
+            storePassword rootProject.ext.signPwd
+            keyAlias rootProject.ext.signkeyAlias
+            keyPassword rootProject.ext.signPwd
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            signingConfig signingConfigs.release
+        }
+    }
+    dataBinding {
+        enabled = true
+    }
+}
+
+repositories {
+    flatDir {
+        dirs '../MobileManager/libs', '../ThirdPartyComps/libs', '../TalkChain/libs','../MobileStarAssetLib/libs', project(':PushLibrary').file('libs')
+    }
+}
+
+
+dependencies {
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    implementation 'com.google.android.gms:play-services-places:16.0.0'
+    implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
+    compile project(':OSPMobileLib')
+    compile project(':PushLibrary')
+    implementation project(':UShare')
+    compile project(':MobileStarAssetLib')
+    implementation project(':MobileNews')
+    implementation project(':XunFeiLibrary')
+    implementation project(':MobileMall')
+    implementation project(':MobileFitness')
+
+    compile 'com.android.support:multidex:1.0.2'
+    compile "com.android.support:support-v4:${rootProject.ext.supportLibVersion}"
+
+    //android 测试依赖
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    androidTestImplementation 'com.android.support.test:rules:0.5'
+    androidTestImplementation "com.android.support:support-annotations:${rootProject.ext.supportLibVersion}"
+    androidTestImplementation 'com.android.support.test:runner:0.5'
+    androidTestImplementation 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.google.firebase:firebase-core:16.0.6'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+    implementation project(':MobileFitness')
+
+}

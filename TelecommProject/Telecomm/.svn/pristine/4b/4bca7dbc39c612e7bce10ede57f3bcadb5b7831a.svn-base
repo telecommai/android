@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 使用说明： -->
+<!-- permission字段表示群组权限的配置，0表示群主才有权限，1表示管理员才有权限2表示所有人3表示群主或者管理员才有 -->
+<package id="mobile_menu" caption="移动菜单设置">
+
+	<ChatMenuRoot>
+		<node id="chatSingle" caption="单聊"/>
+		<node id="chatGroup" caption="群聊" />
+		<node id="chatAppNumber" caption="应用号聊天"/>
+	</ChatMenuRoot>
+	<chatSingle> 
+	<node id="wz" caption="位置" multiLanguageKey="tab_menu_chat_location" icon="chat_menu_location_1" viewType="display"  width="" height="" tcms="present" forResult="true" AndroidShow ="com.efounder.chat.activity.GaoDeLocationActivity"/> 
+	<node id="hongbao" caption="红包" multiLanguageKey="tab_menu_chat_red_packet" icon="chat_menu_redpackage_1" viewType="display"  width="" height="" tcms="present" forResult="true" AndroidShow ="com.pansoft.openplanet.activity.LuckMoneyPrepareActivity"/> 
+	<node id="nljh" caption="能量交换" multiLanguageKey="tab_menu_chat_single_energy_exchange" icon="chat_menu_nljh1_1" viewType="display"  width="" height="" tcms="push" AndroidShow ="com.pansoft.openplanet.activity.TransferActivity"/> 
+	<node id="ethjy" caption="ETH转账" multiLanguageKey="tab_menu_chat_single_eth_transfer" icon="chat_menu_eth_1" viewType="display" chainId="2"  width="" height="" tcms="push" AndroidShow ="com.pansoft.openplanet.activity.ChatTransferActivity"/> 
+	<node id="btcjy" caption="BTC转账" multiLanguageKey="tab_menu_chat_single_btc_transfer" icon="chat_menu_btc_1" viewType="display" chainId="1"  width="" height="" tcms="push" AndroidShow ="com.pansoft.openplanet.activity.ChatTransferActivity"/> 
+	<node id="btcjy" caption="EOS转账" multiLanguageKey="tab_menu_chat_single_eos_transfer" icon="chat_menu_eos_1" viewType="display" chainId="3"  width="" height="" tcms="push" AndroidShow ="com.pansoft.openplanet.activity.ChatTransferActivity"/> 
+	<node id="nljh" caption="密信" multiLanguageKey="tab_menu_chat_single_secret_letter" icon="chat_menu_mixin_1" viewType="display"  width="" height="" tcms="present" AndroidShow ="com.efounder.chat.activity.SecretLetterActivity"/> 
+	<node id="nljh" caption="密图" multiLanguageKey="tab_menu_chat_single_secret_map" icon="chat_menu_mitu_1" viewType="display"  width="" height="" tcms="present" forResult="true" AndroidShow ="com.efounder.chat.activity.SecretImageActivity"/> 
+	<node id="nljh" caption="密件" multiLanguageKey="tab_menu_chat_single_confidential" icon="chat_menu_mijian_1" viewType="display"  width="" height="" tcms="present" forResult="true" AndroidShow ="com.efounder.chat.activity.SecretFileActivity"/> 
+	
+	<node id="nljh" caption="支付宝" multiLanguageKey="tab_menu_chat_alipay" icon="chat_menu_zhifubao1_1" viewType="display"  width="" height="" payMode="zhifubao" tcms="push"  AndroidShow ="com.efounder.chat.activity.OtherUserMoneyCodeActivity"/>
+	<node id="nljh" caption="微信" multiLanguageKey="tab_menu_chat_wechat" icon="chat_menu_wechat1_1" viewType="display"  width="" height="" payMode="weixin" tcms="push" AndroidShow ="com.efounder.chat.activity.OtherUserMoneyCodeActivity"/>
+	<node id="webshare" caption="通告" multiLanguageKey="tab_menu_chat_notice" icon="chat_menu_notification_1" viewType="display"  width="" height="" tcms="present" forResult="false" AndroidShow ="com.efounder.chat.activity.NotificationMessageEditActivity"/> 
+	
+	<node id="namecard" caption="名片" multiLanguageKey="tab_menu_chat_business_card" icon="chat_menu_name_card" viewType="display"  width="" height="" tcms="present" forResult="false" AndroidShow ="com.efounder.chat.activity.ShareNameCardActivity"/> 
+		<!-- <node id="kq" caption="考勤" icon="1.png" viewType="web" url="" state="online/offline" width="" height="" tcms="push/present/alert">  -->
+		<!-- <node id="webView" caption="网页" icon="chat_menu_daily" viewType="display" url="http://www.baidu.com" state="online" width="" height="" tcms="push" AndroidShow ="com.efounder.chat.fragment.SendUrlFragment"/>  -->
+		<!-- <node id="native" caption="原生页面" icon="chat_menu_daily" viewType="display"   AndroidShow ="com.efounder.chat.fragment.SendNativeFragment" width="" height="" tcms="present"/>  -->
+		<!-- <node id="reactNative" caption="rn页面" icon="chat_menu_daily" viewType="display" AndroidShow ="com.efounder.RNMyDeviceActivity" width="" height="" tcms="push"/>  -->
+	</chatSingle>
+
+	<chatGroup>
+	<node id="wz" caption="位置"  multiLanguageKey="tab_menu_chat_location" icon="chat_menu_location_1" viewType="display"  width="" height="" tcms="present" forResult="true" AndroidShow ="com.efounder.chat.activity.GaoDeLocationActivity"/> 
+	<node id="hongbao" caption="红包" multiLanguageKey="tab_menu_chat_red_packet" icon="chat_menu_redpackage_1" viewType="display"  width="" height="" tcms="present" forResult="true" AndroidShow ="com.pansoft.openplanet.activity.LuckMoneyPrepareActivity"/> 
+	<!-- <node id="nljh" caption="密信" icon="chat_menu_mixin" viewType="display"  width="" height="" tcms="push" AndroidShow =""/>  -->
+	<!-- <node id="nljh" caption="密图" icon="chat_menu_mitu" viewType="display"  width="" height="" tcms="push" AndroidShow =""/>  -->
+	<!-- <node id="nljh" caption="密件" icon="chat_menu_mijian" viewType="display"  width="" height="" tcms="push" AndroidShow =""/>  -->
+	
+	<node id="nljh" caption="支付宝" multiLanguageKey="tab_menu_chat_alipay" icon="chat_menu_zhifubao1_1" viewType="display"  width="" height="" tcms="push" AndroidShow =""/> 
+	<node id="nljh" caption="微信" multiLanguageKey="tab_menu_chat_wechat" icon="chat_menu_wechat1_1" viewType="display"  width="" height="" tcms="push" AndroidShow =""/> 
+	<node id="webshare" caption="通告" multiLanguageKey="tab_menu_chat_notice" icon="chat_menu_notification_1" viewType="display"  width="" height="" tcms="present" forResult="false" AndroidShow ="com.efounder.chat.activity.NotificationMessageEditActivity"/> 
+	<node id="namecard" caption="名片" multiLanguageKey="tab_menu_chat_business_card" icon="chat_menu_name_card" viewType="display"  width="" height="" tcms="present" forResult="false" AndroidShow ="com.efounder.chat.activity.ShareNameCardActivity"/> 
+		<!-- <node id="gzrz" caption="工作日志" icon="chat_menu_daily" viewType="display"  width="" height="" tcms="push" AndroidShow ="com.efounder.RNWorkLogActivity"/>  -->
+		<!-- <node id="choujiang" caption="活动" icon="chat_menu_choujiang" permission="3" viewType="display"  width="" height="" tcms="push" AndroidShow ="com.efounder.RNLuckyDrawActivity"/>  -->
+		<!-- <node id="native" caption="原生页面" icon="sh_xc" viewType="display"   AndroidShow ="com.efounder.chat.fragment.SendNativeFragment" width="" height="" tcms="present"/>  -->
+		<!-- <node id="reactNative" caption="rn页面" icon="sh_xc" viewType="display" AndroidShow ="com.efounder.RNMyDeviceActivity"  width="" height="" tcms="push"/>  -->
+	</chatGroup>
+
+	<chatAppNumber>
+		<!-- <node id="webView" caption="网页" icon="chat_menu_daily" viewType="display" url="http://www.baidu.com" state="online" width="" height="" tcms="push" AndroidShow ="com.efounder.chat.fragment.SendUrlFragment"/>  -->
+		<!-- <node id="native" caption="原生页面" icon="chat_menu_daily" viewType="display"   AndroidShow ="com.efounder.chat.fragment.SendNativeFragment" width="" height="" tcms="present"/>  -->
+		<!-- <node id="reactNative" caption="rn页面" icon="chat_menu_daily" viewType="display" AndroidShow ="com.efounder.RNMyDeviceActivity" width="" height="" tcms="push"/>  -->
+	</chatAppNumber>
+
+</package>

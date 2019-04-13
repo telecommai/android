@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="mobile_fmt" caption="移动显示格式设置">
+	<mobile_service>
+		<service id="YHSQMX" key="FBWPProvider"/>
+		<service id="SJCJMX" key="FBWPProvider"/>
+		<service id="FSYXCGJGMX" key="FBWPProvider"/>
+		<service id="WTDJMX" key="FBWPProvider"/>
+		<service id="YHSQ" key="FBWPProvider"/>
+		<service id="YHZSSYXT" key="FBWPProvider"/>
+		<service id="CG_YCSQXX" key="FBWPProvider"/>
+		<service id="CG_YCSQFL" key="FBWPProvider"/>
+		<service id="HY_HYSQB" key="FBWPProvider"/>
+		<!-- 以下是合同系统配置表单-->
+		<!--合同申请-->
+		<service id="HT_YW_HTSQ" key="FBWPProvider"/>
+		<!--销售合同申请单据详情-->
+		<service id="HT_YW_HTSQ_DJXQ" key="FBWPProvider"/>
+
+		<!-- 综合管理部合同流程-->
+		<service id="HT_QTHTLC" key="FBWPProvider"/>
+		<!-- 市场部合同流程-->
+		<service id="HT_SCBLC" key="FBWPProvider"/>
+		<!-- 运营管理部合同流程-->
+		<service id="HT_YYBFZLC" key="FBWPProvider"/>
+		<!-- 计划调运部合同流程-->
+		<service id="HT_CGHTSQKJ" key="FBWPProvider"/>
+		<!-- 化工部合同流程-->
+		<service id="HT_HGBLC" key="FBWPProvider"/>
+        <!-- 交接单申请流程-->
+		<service id="HT_XMSQ" key="FBWPProvider"/>
+
+		<!-- 以下是HR系统配置表单-->
+		<!-- 加班申请流程-->
+		<service id="HR_FLOW_JBSQ" key="FBWPProvider"/>
+		<!-- 请假申请流程-->
+		<service id="QJSQLC	" key="FBWPProvider"/>
+		<!-- 试用申请流程-->
+		<service id="HR_FLOW_SYSQ" key="FBWPProvider"/>
+		<!-- 试用申请分录-->
+		<service id="HR_FLOW_SYSQ_FL" key="FBWPProvider"/>
+		<!-- 劳动合同申请流程-->
+		<service id="HR_LDHTSQ_LC" key="FBWPProvider"/>
+		<!-- 劳动合同申请分录-->
+		<service id="HR_LDHTSQ_LC_FL" key="FBWPProvider"/>
+		<!-- 入职离职申请流程-->
+		<service id="HR_MSKH_LC" key="FBWPProvider"/>
+        <!-- 招聘计划流程-->
+		<service id="HR_ZPJH_LC" key="FBWPProvider"/>
+
+	</mobile_service>
+
+	<mobile_fmt>
+		<!--以下是HR系统界面配置移动表单-->
+		<TableName id="HR_FLOW_JBSQ" caption="加班申请流程" detailCol="" detailName=";;;">
+			<Row>
+				<Col caption="单据编号:" dataSetColID="F_DJBH"/>
+			</Row>
+			<Row>
+				<Col caption="申请时间:" dataSetColID="HR_JBSQ_BT.F_SQRQ"/>
+			</Row>
+			<!--Row>
+				<Col caption="申请人:" dataSetColID="F_SQR_MC"/>
+			</Row-->
+			<Row>
+				<Col caption="联系电话:" dataSetColID="HR_JBSQ_BT.F_SQRDH"/>
+			</Row>
+			<Row>
+				<Col caption="开始时间:" dataSetColID="HR_JBSQ_BT.F_JHKSSJ"/>
+
+			</Row>
+			<Row>
+				<Col caption="结束时间:" dataSetColID="HR_JBSQ_BT.F_JHJSSJ"/>
+
+			</Row>
+			<Row>
+				<Col caption="加班类型:" dataSetColID="F_JBLX_MC"/>
+			</Row>
+			<Row>
+				<Col caption="加班说明:" dataSetColID="HR_JBSQ_BT.F_JBSM"/>
+			</Row>
+		</TableName>
+
+		<TableName id="QJSQLC" caption="请假申请流程" detailCol="" detailName=";;;">
+			<Row>
+				<Col caption="单据编号:" dataSetColID="F_DJBH"/>
+			</Row>
+			<!--Row>
+				<Col caption="申请日期:" dataSetColID="HR_QJXJ_BT.F_SQRQ"/>
+			</Row-->
+			<!--Row>
+				<Col caption="所属部门:" dataSetColID="F_SSBM_MC"/>
+			</Row-->
+			<!--Row>
+				<Col caption="申请人:" dataSetColID="F_SQR_MC"/>
+
+			</Row-->
+			<!--Row>
+				<Col caption="联系电话:" dataSetColID="HR_QJXJ_BT.F_SQRDH"/>
+
+			</Row-->
+			<Row>
+				<Col caption="请假类型:" dataSetColID="F_QJLX_MC"/>
+        <Col caption="申请天数:" dataSetColID="HR_QJXJ_BT.F_SQTS"/>
+			</Row>
+			<Row>
+				<Col caption="起始日期:" dataSetColID="HR_QJXJ_BT.F_QZRQ"/>
+
+			</Row>
+			<Row>
+				<Col caption="结束日期:" dataSetColID="HR_QJXJ_BT.F_YJJSRQ"/>
+			</Row>
+			<!--Row>
+				<Col caption="申请天数:" dataSetColID="HR_QJXJ_BT.F_SQTS"/>
+			</Row-->
+			<Row>
+				<Col caption="请假原因:" dataSetColID="HR_QJXJ_BT.F_QJYY"/>
+			</Row>
+			<Row>
+				<Col caption="请假备注:" dataSetColID="HR_QJXJ_BT.F_QJ_NOTE"/>
+			</Row>
+			<Row>
+				<Col caption="销假日期:" dataSetColID="HR_QJXJ_BT.F_XJRQ"/>
+			</Row>
+			<Row>
+				<Col caption="实际起始日期:" dataSetColID="HR_QJXJ_BT.F_SJQSRQ"/>
+			</Row>
+			<Row>
+				<Col caption="实际结束日期:" dataSetColID="HR_QJXJ_BT.F_SJJSRQ"/>
+			</Row>
+			<Row>
+				<Col caption="实际天数:" dataSetColID="HR_QJXJ_BT.F_SJTS"/>
+			</Row>
+			<Row>
+				<Col caption="销假备注:" dataSetColID="HR_QJXJ_BT.F_XJ_NOTE"/>
+			</Row>
+
+		</TableName>
+
+		<TableName id="HR_FLOW_SYSQ" caption="试用申请流程" detailCol="" detailName=";;;">
+			<Row>
+				<Col caption="单据编号:" dataSetColID="F_DJBH"/>
+			</Row>
+			<Row>
+				<Col caption="考核日期:" dataSetColID="HR_MSKHPS_BT.F_KHRQ"/>
+			</Row>
+			<Row>
+				<Col caption="申请部门:" dataSetColID="F_SQBM_MC"/>
+			</Row>
+			<!--Row>
+				<Col caption="申请人:" dataSetColID="F_SQR_MC"/>
+			</Row-->
+			<Row>
+				<Col caption="联系电话:" dataSetColID="HR_MSKHPS_BT.F_SQRDH"/>
+			</Row>
+			<Row>
+				<Col caption="招聘岗位:" dataSetColID="HR_MSKHPS_BT.F_ZPXQJHMC"/>
+			</Row>
+			<Row>
+				<Col caption="备    注:" dataSetColID="HR_MSKHPS_BT.F_NOTE"/>
+			</Row>
+			
+		</TableName>
+		<!-- 试用申请分录-->
+		<TableName id="HR_FLOW_SYSQ_FL" caption="试用申请分录" detailCol="" detailName=";;;">
+			<Row>
+				<Col caption="员工编号:" dataSetColID="HR_MSKHPS_FL.F_YGBH"/>
+				<Col caption="人员姓名:" dataSetColID="HR_MSKHPS_FL.F_YGXM"/>
+				<Col caption="联系电话:" dataSetColID="HR_MSKHPS_FL.F_LXDH"/>
+				<Col caption="所属部门:" dataSetColID="DWZD_MC"/>
+				<Col caption="部门岗位:" dataSetColID="HR_MSKHPS_FL.F_BMGW"/>
+				<Col caption="毕业院校:" dataSetColID="HR_MSKHPS_FL.F_BYYX"/>
+				<Col caption="学    历:" dataSetColID="HR_MSKHPS_FL.F_XL"/>
+				<Col caption="学    位:" dataSetColID="HR_MSKHPS_FL.F_XW"/>
+				<Col caption="专    业:" dataSetColID="HR_MSKHPS_FL.F_ZY"/>
+			</Row>
+		</TableName>
+
+		<TableName id="HR_LDHTSQ_LC" caption="劳动合同申请流程" detailCol="" detailName=";;;">
+			<Row>
+				<Col caption="单据编号:" dataSetColID="F_DJBH"/>
+			</Row>
+			<Row>
+				<Col caption="申请日期:" dataSetColID="HR_LDHTSQ_BT.F_SQRQ"/>
+			</Row>
+			<!--Row>
+				<Col caption="申请人:" dataSetColID="F_SQR_MC"/>
+			</Row-->
+			<!--Row>
+				<Col caption="申请部门:" dataSetColID="DWZD_MC"/>
+			</Row-->
+			<Row>
+				<Col caption="联系电话:" dataSetColID="HR_LDHTSQ_BT.F_SQRDH"/>
+			</Row>
+			<Row>
+				<Col caption="员工姓名:" dataSetColID="HR_LDHTSQ_BT.F_YGBH"/>
+			</Row>
+			<Row>
+				<Col caption="变更说明:" dataSetColID="HR_LDHTSQ_BT.F_NOTE"/>
+			</Row>
+			
+		</TableName>
+
+		<!-- 劳动合同申请分录-->
+		<TableName id="HR_LDHTSQ_LC_FL" caption="劳动合同申请分录" detailCol="" detailName=";;;">
+			<Row>
+				<Col caption="合同类型:" dataSetColID="F_HTLX_MC"/>
+				<Col caption="合同编号:" dataSetColID="HR_LDHTXX_FL.F_HTBH"/>
+				<Col caption="签订日期:" dataSetColID="HR_LDHTXX_FL.F_QDRQ"/>
+				<Col caption="起始日期:" dataSetColID="HR_LDHTXX_FL.F_QSRQ"/>
+				<Col caption="合同年限:" dataSetColID="HR_LDHTXX_FL.F_HTNX"/>
+				<Col caption="终止日期:" dataSetColID="HR_LDHTXX_FL.F_ZZRQ"/>
+				<Col caption="备    注:" dataSetColID="HR_LDHTXX_FL.F_NOTE"/>
+			</Row>
+		</TableName>
+
+		<TableName id="HR_MSKH_LC" caption="入职离职申请流程" detailCol="" detailName=";;;">
+			<Row>
+				<Col caption="单据编号:" dataSetColID="F_DJBH"/>
+			</Row>
+			<Row>
+				<Col caption="考核日期:" dataSetColID="HR_MSKHPS_BT.F_KHRQ"/>
+			</Row>
+			<Row>
+				<Col caption="申请部门:" dataSetColID="F_SQBM_MC"/>
+			</Row>
+			<!--Row>
+				<Col caption="申请人:" dataSetColID="HR_MSKHPS_BT.F_SQR"/>
+			</Row-->
+			<!--Row>
+				<Col caption="申请人电话:" dataSetColID="HR_MSKHPS_BT.F_SQRDH"/>
+			</Row-->
+			<Row>
+				<Col caption="招聘岗位:" dataSetColID="HR_MSKHPS_BT.F_ZPXQJH"/>
+
+			</Row>
+			<Row>
+				<Col caption="备    注:" dataSetColID="HR_MSKHPS_BT.F_NOTE"/>
+			</Row>
+			
+		</TableName>
+		<!-- 入职离职申请分录-->
+		<TableName id="HR_MSKH_LC_FL" caption="入职离职申请分录" detailCol="" detailName=";;;">
+			<Row>
+				<Col caption="员工编号:" dataSetColID="HR_MSKHPS_FL.F_YGBH"/>
+				<Col caption="员工姓名:" dataSetColID="HR_MSKHPS_FL.F_YGXM"/>
+				<Col caption="联系电话:" dataSetColID="HR_MSKHPS_FL.F_LXDH"/>
+				<Col caption="所属部门:" dataSetColID="F_SSBM_MC"/>
+				<Col caption="部门岗位:" dataSetColID="HR_MSKHPS_FL.F_BMGW"/>
+				<Col caption="毕业院校:" dataSetColID="HR_MSKHPS_FL.F_BYYX"/>
+				<Col caption="学    历:" dataSetColID="F_XL_MC"/>
+				<Col caption="学    位:" dataSetColID="HR_MSKHPS_FL.F_XW"/>
+				<Col caption="专    业:" dataSetColID="HR_MSKHPS_FL.F_ZY"/>
+			</Row>
+		</TableName>
+
+
+		<TableName id="HR_ZPJH_LC" caption="招聘计划流程" detailCol="" detailName=";;;">
+			<Row>
+				<Col caption="单据编号:" dataSetColID="F_DJBH"/>
+			</Row>
+			<Row>
+				<Col caption="申请日期:" dataSetColID="HR_ZPXQJH_BT.F_SQRQ"/>
+			</Row>
+			<Row>
+				<Col caption="申请部门:" dataSetColID="F_SQBM_MC"/>
+			</Row>
+			<!--Row>
+				<Col caption="申请人:" dataSetColID="HR_ZPXQJH_BT.F_SQR"/>
+
+			</Row-->
+			<!--Row>
+				<Col caption="申请人电话:" dataSetColID="HR_ZPXQJH_BT.F_SQRDH"/>
+
+			</Row-->
+			<Row>
+				<Col caption="招聘岗位:" dataSetColID="HR_ZPXQJH_BT.F_ZPXQJH"/>
+
+			</Row>
+			<Row>
+				<Col caption="备    注:" dataSetColID="HR_ZPXQJH_BT.F_NOTE"/>
+			</Row>
+			
+		</TableName>
+		<!--招聘计划分录-->
+		<TableName id="HR_ZPJH_LC_FL" caption="招聘计划分录" detailCol="" detailName=";;;">
+			<Row>
+				<!--Col caption="岗位类型:" dataSetColID="HR_ZPXQJH_FL.F_GWLX"/-->
+				<Col caption="岗位类型名称:" dataSetColID="HR_ZPXQJH_FL.F_GWLXMC"/>
+				<Col caption="招聘紧急程度:" dataSetColID="F_JJCD_MC"/>
+				<Col caption="拟招聘人数:" dataSetColID="HR_ZPXQJH_FL.F_NZPRS"/>
+				<Col caption="招聘说明:" dataSetColID="HR_ZPXQJH_FL.F_ZPGWSM"/>
+				<Col caption="起始日期:" dataSetColID="HR_ZPXQJH_FL.F_QSRQ"/>
+				<Col caption="结束日期:" dataSetColID="HR_ZPXQJH_FL.F_JSRQ"/>
+				<Col caption="备    注:" dataSetColID="HR_ZPXQJH_FL.F_NOTE"/>
+			</Row>
+		</TableName>
+
+
+		<!-- 以下是合同系统界面配置移动表单-->
+		<TableName id="HT_QTHTLC" caption="综合管理部合同流程" detailCol="" detailName=";;;">
+			<Row>
+				<Col caption="单据编号:" dataSetColID="F_DJBH"/>
+			</Row>
+			<Row>
+				<Col caption="签订时间:" dataSetColID="HT_YW_HTSQ.QDSJ"/>
+			</Row>
+			<!--Row>
+				<Col caption="编制人:" dataSetColID="HT_YW_HTSQ.F_TJRMC"/>
+			</Row-->
+			<!--Row>
+				<Col caption="编制部门:" dataSetColID="HT_YW_HTSQ.DWZD_MC"/>
+			</Row-->
+			<Row>
+				<Col caption="合同类型:" dataSetColID="HTLX_MC"/>
+			</Row>
+			<Row>
+				<Col caption="合同名称:" dataSetColID="HT_YW_HTSQ.HTMC"/>
+			</Row>
+			<Row>
+				<Col caption="甲    方:" dataSetColID="HT_YW_HTSQ.JFMC"/>
+			</Row>
+			<Row>
+				<Col caption="乙    方:" dataSetColID="HT_YW_HTSQ.YFMC"/>
+			</Row>
+			<Row>
+				<Col caption="合同摘要:" dataSetColID="HT_YW_HTSQ.HTZY"/>
+			</Row>
+			<Row>
+				<Col caption="合同主体数:" dataSetColID="HT_YW_HTSQ.HTZTS"/>
+				<Col caption="合同份数:" dataSetColID="HT_YW_HTSQ.HTFS"/>
+			</Row>
+			<!--Row>
+				<Col caption="合同份数:" dataSetColID="HT_YW_HTSQ.HTFS"/>
+			</Row-->
+			<Row>
+				<Col caption="合同金额(万元):" dataSetColID="HT_YW_HTSQ.HTJE"/>
+			</Row>
+		</TableName>
+
+		<TableName id="HT_SCBLC" caption="市场部合同流程" detailCol="" detailName=";;;">
+		<Row>
+				<Col caption="单据编号:" dataSetColID="F_DJBH"/>
+			</Row>
+			<Row>
+				<Col caption="签订时间:" dataSetColID="HT_YW_HTSQ.QDSJ"/>
+			</Row>
+			<!--Row>
+				<Col caption="编制人:" dataSetColID="HT_YW_HTSQ.F_TJRMC"/>
+			</Row-->
+			<!--Row>
+				<Col caption="编制部门:" dataSetColID="HT_YW_HTSQ.DWZD_MC"/>
+			</Row-->
+			<Row>
+				<Col caption="合同类型:" dataSetColID="HTLX_MC"/>
+			</Row>
+			<Row>
+				<Col caption="合同名称:" dataSetColID="HT_YW_HTSQ.HTMC"/>
+			</Row>
+			<Row>
+				<Col caption="甲    方:" dataSetColID="HT_YW_HTSQ.JFMC"/>
+			</Row>
+			<Row>
+				<Col caption="乙    方:" dataSetColID="HT_YW_HTSQ.YFMC"/>
+			</Row>
+			<Row>
+				<Col caption="合同摘要:" dataSetColID="HT_YW_HTSQ.HTZY"/>
+			</Row>
+			<Row>
+				<Col caption="合同主体数:" dataSetColID="HT_YW_HTSQ.HTZTS"/>
+				<Col caption="合同份数:" dataSetColID="HT_YW_HTSQ.HTFS"/>
+			</Row>
+			<!--Row>
+				<Col caption="合同份数:" dataSetColID="HT_YW_HTSQ.HTFS"/>
+			</Row-->
+			<Row>
+				<Col caption="合同金额(万元):" dataSetColID="HT_YW_HTSQ.HTJE"/>
+			</Row>
+		</TableName>
+		
+		<TableName id="HT_YYBFZLC" caption="运营管理部合同流程" detailCol="" detailName=";;;">
+			<Row>
+				<Col caption="单据编号:" dataSetColID="F_DJBH"/>
+			</Row>
+			<Row>
+				<Col caption="签订时间:" dataSetColID="HT_YW_HTSQ.QDSJ"/>
+			</Row>
+			<!--Row>
+				<Col caption="编制人:" dataSetColID="HT_YW_HTSQ.F_TJRMC"/>
+			</Row-->
+			<!--Row>
+				<Col caption="编制部门:" dataSetColID="HT_YW_HTSQ.DWZD_MC"/>
+			</Row-->
+			<Row>
+				<Col caption="合同类型:" dataSetColID="HTLX_MC"/>
+			</Row>
+			<Row>
+				<Col caption="合同名称:" dataSetColID="HT_YW_HTSQ.HTMC"/>
+			</Row>
+			<Row>
+				<Col caption="甲    方:" dataSetColID="HT_YW_HTSQ.JFMC"/>
+			</Row>
+			<Row>
+				<Col caption="乙    方:" dataSetColID="HT_YW_HTSQ.YFMC"/>
+			</Row>
+			<Row>
+				<Col caption="合同摘要:" dataSetColID="HT_YW_HTSQ.HTZY"/>
+			</Row>
+			<Row>
+				<Col caption="合同主体数:" dataSetColID="HT_YW_HTSQ.HTZTS"/>
+				<Col caption="合同份数:" dataSetColID="HT_YW_HTSQ.HTFS"/>
+			</Row>
+			<!--Row>
+				<Col caption="合同份数:" dataSetColID="HT_YW_HTSQ.HTFS"/>
+			</Row-->
+			<Row>
+				<Col caption="合同金额(万元):" dataSetColID="HT_YW_HTSQ.HTJE"/>
+			</Row>
+		</TableName>
+
+		<TableName id="HT_CGHTSQKJ" caption="计划调运部合同流程" detailCol="" detailName=";;;">
+			<Row>
+				<Col caption="单据编号:" dataSetColID="F_DJBH"/>
+			</Row>
+			<Row>
+				<Col caption="签订时间:" dataSetColID="HT_YW_HTSQ.QDSJ"/>
+			</Row>
+			<!--Row>
+				<Col caption="编制人:" dataSetColID="HT_YW_HTSQ.F_TJRMC"/>
+			</Row-->
+			<!--Row>
+				<Col caption="编制部门:" dataSetColID="HT_YW_HTSQ.DWZD_MC"/>
+			</Row-->
+			<Row>
+				<Col caption="合同类型:" dataSetColID="HTLX_MC"/>
+			</Row>
+			<Row>
+				<Col caption="合同名称:" dataSetColID="HT_YW_HTSQ.HTMC"/>
+			</Row>
+			<Row>
+				<Col caption="甲    方:" dataSetColID="HT_YW_HTSQ.JFMC"/>
+			</Row>
+			<Row>
+				<Col caption="乙    方:" dataSetColID="HT_YW_HTSQ.YFMC"/>
+			</Row>
+			<Row>
+				<Col caption="合同摘要:" dataSetColID="HT_YW_HTSQ.HTZY"/>
+			</Row>
+			<Row>
+				<Col caption="合同主体数:" dataSetColID="HT_YW_HTSQ.HTZTS"/>
+				<Col caption="合同份数:" dataSetColID="HT_YW_HTSQ.HTFS"/>
+			</Row>
+			<!--Row>
+				<Col caption="合同份数:" dataSetColID="HT_YW_HTSQ.HTFS"/>
+			</Row-->
+			<Row>
+				<Col caption="合同金额(万元):" dataSetColID="HT_YW_HTSQ.HTJE"/>
+			</Row>
+		</TableName>
+
+		<TableName id="HT_HGBLC" caption="化工部合同流程" detailCol="" detailName=";;;">
+			<Row>
+				<Col caption="单据编号:" dataSetColID="F_DJBH"/>
+			</Row>
+			<Row>
+				<Col caption="签订时间:" dataSetColID="HT_YW_HTSQ.QDSJ"/>
+			</Row>
+			<!--Row>
+				<Col caption="编制人:" dataSetColID="HT_YW_HTSQ.F_TJRMC"/>
+			</Row-->
+			<!--Row>
+				<Col caption="编制部门:" dataSetColID="HT_YW_HTSQ.DWZD_MC"/>
+			</Row-->
+			<Row>
+				<Col caption="合同类型:" dataSetColID="HTLX_MC"/>
+			</Row>
+			<Row>
+				<Col caption="合同名称:" dataSetColID="HT_YW_HTSQ.HTMC"/>
+			</Row>
+			<Row>
+				<Col caption="甲    方:" dataSetColID="HT_YW_HTSQ.JFMC"/>
+			</Row>
+			<Row>
+				<Col caption="乙    方:" dataSetColID="HT_YW_HTSQ.YFMC"/>
+			</Row>
+			<Row>
+				<Col caption="合同摘要:" dataSetColID="HT_YW_HTSQ.HTZY"/>
+			</Row>
+			<Row>
+				<Col caption="合同主体数:" dataSetColID="HT_YW_HTSQ.HTZTS"/>
+				<Col caption="合同份数:" dataSetColID="HT_YW_HTSQ.HTFS"/>
+			</Row>
+			<!--Row>
+				<Col caption="合同份数:" dataSetColID="HT_YW_HTSQ.HTFS"/>
+			</Row-->
+			<Row>
+				<Col caption="合同金额(万元):" dataSetColID="HT_YW_HTSQ.HTJE"/>
+			</Row>
+		</TableName>
+
+		<TableName id="HT_XMSQ" caption="交接单申请流程" detailCol="" detailName=";;;">
+			<Row>
+				<Col caption="单据编号:" dataSetColID="F_DJBH"/>
+			</Row>
+			<Row>
+				<Col caption="制单时间:" dataSetColID="HT_YW_XMSQ.F_TJRQ"/>
+			</Row>
+			<!--Row>
+				<Col caption="编制人:" dataSetColID="HT_YW_XMSQ.F_TJRMC"/>
+			</Row-->
+			<!--Row>
+				<Col caption="编制部门:" dataSetColID="HT_YW_XMSQ.DWZD_MC"/>
+			</Row-->
+			<Row>
+				<Col caption="项目名称:" dataSetColID="HT_YW_XMSQ.HTXMMC"/>
+			</Row>
+			<Row>
+				<Col caption="对接单位:" dataSetColID="HT_YW_XMSQ.DJDW1"/>
+			</Row>
+			<Row>
+				<Col caption="合同主体数:" dataSetColID="HT_YW_XMSQ.HTZTS"/>
+			</Row>
+			<Row>
+				<Col caption="月用量:" dataSetColID="HT_YW_XMSQ.YYL"/>
+			</Row>
+			<Row>
+				<Col caption="需求总量:" dataSetColID="HT_YW_XMSQ.XQZL"/>
+			</Row>
+			<Row>
+				<Col caption="折算密度:" dataSetColID="HT_YW_XMSQ.ZSMD"/>
+			</Row>
+			<Row>
+				<Col caption="联系人:" dataSetColID="HT_YW_XMSQ.LXR"/>
+			</Row>
+			<Row>
+				<Col caption="联系电话:" dataSetColID="HT_YW_XMSQ.DH"/>
+			</Row>
+		</TableName>
+		
+		
+		<TableName id="YHSQ" caption="用户授权" detailCol="TASK_NAME;NODE_TAG_NAME;NODE_TAG" detailName=";;;">
+			<Row>
+				<Col caption="地点:" dataSetColID="RWHEAD.F_RWNR"/>
+			</Row>
+			<Row>
+				<Col caption="合同:" dataSetColID="RWHEAD.F_RWMC"/>
+				<Col caption="名称:" dataSetColID="RWHEAD.F_ZDRMC"/>
+				<Col caption="名字:" dataSetColID="RWHEAD.F_RWBH"/>
+			</Row>
+			<Row>
+				
+				<Col caption="手机号:" dataSetColID="RWHEAD.F_ZDRTEL"/>
+			</Row>
+			<Row>
+				<Col caption="费用:" dataSetColID="F_DJBH"/>
+			</Row>
+		</TableName>
+
+		<TableName id="YHZSSYXT" caption="证书启用应用系统" detailCol="F_XTMC;F_XTBH;F_KJQJ;F_ZZJG;F_DJBH" detailName="系统名称: ;系统编号: ;会计区间: ;组织机构: ;单据编号:">
+			<Row>
+				<Col caption="" dataSetColID="F_XTMC"/>
+			</Row>
+			<Row>
+				<Col caption="会计区间:" dataSetColID="F_KJQJ"/>
+			</Row>
+			<Row>
+				<Col caption="组织机构:" dataSetColID="F_ZZJG"/>
+			</Row>
+		</TableName>
+
+		<TableName id="CG_YCSQXX" caption="巡检模板">
+			<Row>
+				<Col caption="" dataSetColID="F_MDD"/>
+
+			</Row>
+
+			<Row>
+				<Col caption="" dataSetColID="F_CFDD"/>
+				<Col caption="" dataSetColID="F_JBR"/>
+			</Row>
+		</TableName>
+
+		<TableName id="CG_YCSQFL" caption="巡检模板">
+			<Row>
+				<Col caption="" dataSetColID="F_YCMD"/>
+				<Col caption="" dataSetColID="F_CXBH"/>
+			</Row>
+			<Row>
+				<Col caption="" dataSetColID="F_YCLD"/>
+			</Row>
+		</TableName>
+
+		<TableName id="TYCJ_SBSS_B_SJCJZB" caption="巡检模板">
+			<Row>
+				<Col caption="作业区:" dataSetColID="ZYQ" viewDataSetID="TYCJ_ZZJG" viewDataSetColID="F_DWMC"/>
+			</Row>
+
+			<Row>
+				<Col caption="录入时间:" dataSetColID="F_SJID" viewDataSetID="TYCJ_ZSJWH_B_SJ" viewDataSetColID="F_SJMC" xsfs=""/>
+			</Row>
+		</TableName>
+
+		<TableName id="TYCJ_SBSS_B_SJCJ" caption="巡检模板分录1">
+			<Row>
+				<Col caption="巡检项目:" dataSetColID="GLDXID" viewDataSetID="TYCJ_ZSJWH_B_GLDX" viewDataSetColID="DXMC"/>
+			</Row>
+			<Row>
+				<Col caption="巡检内容:" dataSetColID="CJXID" viewDataSetID="TYCJ_ZSJWH_B_GLDXCJ" viewDataSetColID="CJNR"/>
+				<Col caption="巡检标准:" dataSetColID="XJBZ"/>
+			</Row>
+		</TableName>
+
+		<TableName id="TYCJ_DDZX_B_WTDJ" caption="问题管理">
+			<Row>
+				<Col caption="登记时间:" dataSetColID="DJRQ"/>
+			</Row>
+			<Row>
+				<Col caption="登记人员:" dataSetColID="YHXM"/>
+			</Row>
+		</TableName>
+
+		<TableName id="HY_HYSQB" caption="会议申请" detailCol="F_HYDDMC;F_HYSBH;F_HYJJ;F_HYSMC;F_LRRMC;F_LRDWMC" detailName="地点名称: ;会议编号: ;会议名称: ;会议室名称:;申请人:;所属公司:" >
+			<Row>
+				<Col caption="" dataSetColID="F_HYDDMC"/>
+			</Row>
+			<Row>
+				<Col caption="会议编号:" dataSetColID="F_HYSBH"/>
+			</Row>
+			<Row>
+				<Col caption="会议名称:" dataSetColID="F_HYJJ"/>
+			</Row>
+			<Row>
+				<Col caption="会议室名称:" dataSetColID="F_HYSMC"/>
+			</Row>
+			<Row>
+				<Col caption="申请人:" dataSetColID="F_LRRMC"/>
+			</Row>
+			<Row>
+				<Col caption="所属公司:" dataSetColID="F_LRDWMC"/>
+			</Row>
+		</TableName>
+
+		<TableName id="UNIT_REQUEST" caption="单位申请" formHeadName="单据" formPartName="单位申请明细" detailCol="UNIT_ADDRESS;UNIT_MC;UNIT_NAME" detailName="地点地址: ;单位名称: ;单位Name:" >
+			<Row>
+				<Col caption="" dataSetColID="UNIT_ADDRESS"/>
+			</Row>
+			<Row>
+				<Col caption="单位名称:" dataSetColID="UNIT_MC"/>
+			</Row>
+			<Row>
+				<Col caption="单位Name:" dataSetColID="UNIT_NAME"/>
+			</Row>
+		</TableName>
+
+		<TableName id="TASKPendingDataSet" caption="待办任务" formHeadName="单据" formPartName="待办明细" detailCol="TASK_UNIT_NAME;OP_SUBMIT_NAME;BIZ_DATE">
+			<Row>
+				<Col caption="" dataSetColID="TASK_UNIT_NAME"/>
+			</Row>
+			<Row>
+				<Col caption="提交人:" dataSetColID="OP_SUBMIT_NAME"/>
+				<Col caption="日期:" dataSetColID="BIZ_DATE"/>
+			</Row>
+		</TableName>
+
+		<TableName id="TASKProcessedDataSet" caption="代办任务">
+			<Row>
+				<Col caption="" dataSetColID="NODE_TAG_NAME"/>
+				<Col caption="标识:" dataSetColID="BIZ_DJBH"/>
+			</Row>
+			<Row>
+				<Col caption="提交人:" dataSetColID="OP_SUBMIT_NAME"/>
+				<Col caption="" dataSetColID="OP_TIME"/>
+			</Row>
+			<Row>
+				<Col caption="流程ID:" dataSetColID="FLOW_ID"/>
+			</Row>
+			<Row>
+				<Col caption="单位:" dataSetColID="TASK_UNIT_NAME"/>
+			</Row>
+			<Row>
+				<Col caption="日期:" dataSetColID="BIZ_DATE"/>
+			</Row>
+		</TableName>
+        
+        <TableName id="FilePendingDataSet" caption="待办任务" formHeadName="单据" formPartName="待办明细" detailCol="title;field1;field2;field3">
+            <Row>
+                <Col caption="" dataSetColID="title"/>
+            </Row>
+            <Row>
+                <Col caption="" dataSetColID="field1"/>
+            </Row>
+            <Row>
+                <Col caption="" dataSetColID="field2"/>
+            </Row>
+            <Row>
+                <Col caption="" dataSetColID="field3"/>
+            </Row>
+        </TableName>
+	</mobile_fmt>
+</package>

@@ -1,0 +1,749 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="io.telecomm.telecomm"
+    android:versionCode="35"
+    android:versionName="1.0.168">
+    <!--android:versionName="1.0.21"-->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" />
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" />
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_APP_BADGE" />
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- 拨打电话权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 读取联系人权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 写入通讯录权限 -->
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <!-- 访问网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <!-- 保存文件所需权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 广播传送与接收权限 -->
+    <!--<uses-permission android:name="android.permission.RECEIVE_SMS" />-->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.huawei.authentication.HW_ACCESS_AUTH_SERVICE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <!--
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.SET_ORIENTATION" />
+    -->
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- SD卡读取权限，用户写入离线定位数据 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 硬件加速???? -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!--android:theme="@style/AppTheme_osp_mobile"-->
+    <application
+        android:name="com.efounder.OpenPlanetApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/wechat_icon_launcher"
+        android:label="${app_name}"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme_osp_mobile"
+        tools:replace="android:theme,android:name,android:label,android:icon,android:hardwareAccelerated">
+        <!--android:icon="@drawable/wechat_icon_launcher"-->
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.2" />
+
+        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+        <activity
+            android:name="com.efounder.activity.VerifyCodeActivity"
+            android:screenOrientation="portrait"
+            android:taskAffinity=":login"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <activity
+            android:name="com.efounder.activity.OpenLoginWithPassword"
+            android:screenOrientation="portrait"
+            android:taskAffinity=":login"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+
+        <activity
+            android:name="com.efounder.activity.VerifyInviteCodeActivity"
+            android:screenOrientation="portrait"
+            android:taskAffinity=":login"
+            android:windowSoftInputMode="stateVisible|adjustPan" />
+
+        <!-- 雷达添加好友 -->
+        <activity
+            android:name="com.efounder.chat.activity.RadarAddFriendActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+
+        <activity
+            android:name="com.efounder.chat.activity.LoginWebActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.efounder.chat.zxing.qrcode.OtherResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+        <activity
+            android:name="com.efounder.chat.activity.CreateUserQRCode"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+        <activity
+            android:name="com.efounder.chat.zxing.qrcode.MipcaActivityCapture"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="com.efounder.chat.activity.LoginThirdWebActivity"
+            android:theme="@style/horizontal_slide" />
+        <activity
+            android:name="com.efounder.activity.MainFrameActivity"
+            android:theme="@style/horizontal_slide"></activity>
+
+        <activity
+            android:name="com.efounder.activity.SettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+
+        <activity
+            android:name="com.efounder.activity.ContactsDetailsActivity"
+            android:theme="@style/horizontal_slide"></activity>
+        <activity
+            android:name="com.efounder.activity.AgentDetailAct"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+        <activity
+            android:name="com.efounder.activity.AboutActivityNew"
+            android:theme="@style/horizontal_slide"></activity>
+        <activity
+            android:name="com.efounder.activity.ApprovalActivity"
+            android:theme="@style/horizontal_slide"></activity>
+        <activity
+            android:name="com.efounder.activity.SimpleWebFragment_url"
+            android:theme="@style/horizontal_slide"></activity>
+        <activity
+            android:name="com.efounder.agency.activity.ApprovalOpinion"
+            android:theme="@style/horizontal_slide"></activity>
+        <activity
+            android:name="com.efounder.activity.SugguestDetailActivity"
+            android:theme="@style/horizontal_slide"></activity>
+        <activity
+            android:name="com.efounder.activity.PDFWebViewActivity"
+            android:theme="@style/horizontal_slide"></activity>
+        <activity
+            android:name="com.efounder.activity.NoticeDetailActivity"
+            android:screenOrientation="sensor"
+            android:theme="@style/horizontal_slide"></activity>
+        <activity
+            android:name="com.efounder.activity.PlanetChooseActivity"
+            android:screenOrientation="portrait"
+            android:taskAffinity=":login" />
+
+        <!-- android:windowSoftInputMode="stateAlwaysVisible"    android:launchMode="singleTask"-->
+        <!-- android:windowSoftInputMode="stateAlwaysVisible"    android:launchMode="singleTask" com.efounder.activity.LunchViewActivity com.efounder.form.comp.multiple_images_selector.TestImageViewActivity -->
+        <activity
+            android:name="com.efounder.activity.GuideActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/GuideTheme"
+            android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.efounder.activity.Login_withTitle"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity
+            android:name="com.efounder.activity.Welcome1Activity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <!--android:windowSoftInputMode="adjustResize"-->
+
+        <!--<activity-->
+        <!--android:name="com.efounder.wechat.LoginWeChatActivity"-->
+        <!--android:hardwareAccelerated="true"-->
+        <!--android:screenOrientation="portrait"> </activity>-->
+        <activity
+            android:name="com.efounder.activity.TabBottomActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustNothing">
+
+
+        </activity>
+
+        <activity
+            android:name="com.efounder.activity.MenuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysVisible">
+            <intent-filter>
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <!--
+            <activity
+            android:name="com.efounder.activity.LxSettingActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="fullSensor"
+            android:launchMode="singleTop"
+            ></activity>
+        -->
+
+        <!-- 新的单据信息详情页面 -->
+        <!--<activity-->
+        <!--android:name="com.efounder.activity.OADetailActivity"-->
+        <!--android:label="@string/app_name"-->
+        <!--android:theme="@style/horizontal_slide"> </activity>-->
+        <!-- 任务：新的单据信息详情页面 :动态-->
+        <activity
+            android:name="com.efounder.agency.activity.TaskDetailDynamicActivity"
+            android:label="@string/app_name"
+            android:theme="@style/horizontal_slide"></activity>
+        <!-- 任务：OA审批界面-->
+        <activity
+            android:name="com.efounder.agency.activity.TaskDetaiSecondActivity"
+            android:label="@string/app_name"
+            android:theme="@style/horizontal_slide"></activity>
+        <!--<activity-->
+        <!--android:name="com.efounder.agency.activity.OAApprovalActivity"-->
+        <!--android:label="@string/app_name"-->
+        <!--android:theme="@style/horizontal_slide"> </activity>-->
+        <!-- 任务：OA审批界面-动态 -->
+        <activity
+            android:name="com.efounder.agency.activity.OAApprovalDynamicActivity"
+            android:label="@string/app_name"
+            android:theme="@style/horizontal_slide"></activity>
+        <activity
+            android:name="com.efounder.agency.activity.DeptUserTreeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/horizontal_slide"></activity>
+        <!--<activity-->
+        <!--android:name="com.efounder.activity.ContractDetailActivity"-->
+        <!--android:label="@string/app_name"-->
+        <!--android:theme="@style/horizontal_slide"> </activity>-->
+
+        <!-- 邮箱activity -->
+        <!--<activity-->
+        <!--android:name="com.efounder.activity.EmailActivity"-->
+        <!--android:label="@string/app_name"> </activity>-->
+        <activity
+            android:name="com.efounder.email.activity.EmailInBoxAct"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name="com.efounder.email.activity.EmailOutBoxAct"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name="com.efounder.email.activity.EmailWriteAct"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"></activity>
+        <activity
+            android:name="com.efounder.email.activity.EmailDetailsAct"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity
+            android:name="com.efounder.email.activity.EmailLinkManAct"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity
+            android:name="com.efounder.email.activity.PhotoAlbumActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity
+            android:name="com.efounder.email.activity.PhotoWallActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <!-- 主数据 -->
+        <activity
+            android:name="com.efounder.activity.MasterDataActivity"
+            android:label="@string/app_name"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <!-- 修改密码 -->
+        <activity
+            android:name="com.efounder.chat.activity.AlterPassWordByRestFulActivity"
+            android:label="@string/app_name"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustNothing"></activity>
+
+        <!-- 修改密码 -->
+        <activity
+            android:name="com.efounder.chat.activity.AlterPassWordActivity"
+            android:label="@string/app_name"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustNothing"></activity>
+
+        <!-- 监听网络状态 -->
+        <receiver android:name="com.efounder.util.NetWorkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.zhuiji7.filedownloader.download.DownLoadService" />
+
+        <!-- 注册 -->
+        <activity
+            android:name="com.efounder.chat.activity.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+        <!-- 注册 -->
+        <activity
+            android:name="com.efounder.chat.activity.RegisterByRestFulActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+        <!-- user详情资料 -->
+        <activity
+            android:name="com.efounder.chat.activity.UserInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+        <!-- groupuser详情资料 -->
+        <activity
+            android:name="com.efounder.chat.activity.GroupUserInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+        <!-- 公众号详情资料 -->
+        <activity
+            android:name="com.efounder.chat.activity.PublicNumerInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+        <!-- 会话界面 -->
+        <activity
+            android:name="com.efounder.chat.activity.ChatActivity"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:parentActivityName="com.pansoft.openplanet.activity.TabBottomActivityForTalkChain"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pansoft.openplanet.activity.TabBottomActivityForTalkChain" />
+        </activity>
+        <!-- 公众号会话界面 -->
+        <activity
+            android:name="com.efounder.chat.publicnumber.PublicChatActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+
+        <!-- 通用的跳转Fragment Activity -->
+        <activity
+            android:name="com.efounder.chat.activity.TransformFragmentActivity"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+
+        <!-- popwindow的添加好友 -->
+        <activity
+            android:name="com.efounder.chat.activity.AddFriendsOneActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+
+        <!-- 添加好友2 -->
+        <activity
+            android:name="com.efounder.chat.activity.AddFriendsTwoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+        <!-- 添加公众号好友2 -->
+        <activity
+            android:name="com.efounder.chat.activity.AddPublicFriendsTwoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+        <!-- 搜索公众号好友2 -->
+        <activity
+            android:name="com.efounder.chat.activity.AddPublicFriendInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+
+        <!-- popwindow的发起群聊 -->
+        <activity
+            android:name="com.efounder.chat.activity.CreatChatRoomActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustNothing|stateHidden"></activity>
+
+        <!-- 单聊设置界面 -->
+        <activity
+            android:name="com.efounder.chat.activity.ChatSingleSettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+
+
+        <!-- 选择群聊的群界面 -->
+        <activity
+            android:name="com.efounder.chat.activity.ChatRoomActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+        <!-- 设置好友备注 -->
+        <activity
+            android:name="com.efounder.chat.activity.UserRemarkActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+        <!-- 更改自己的昵称 -->
+        <activity
+            android:name="com.efounder.chat.activity.UpdatePersonalInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+        <!-- 图片选择器界面 -->
+
+        <activity
+            android:name="com.efounder.imageselector.activity.MultiImageSelectorActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.efounder.imageselector.activity.PreViewActivity"
+            android:configChanges="orientation|screenSize" />
+        <!-- 显示大图片界面 -->
+        <activity
+            android:name="com.efounder.chat.activity.ShowBigImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+        <!-- 拍视频 -->
+        <activity
+            android:name="com.efounder.chat.activity.RecorderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+        <!-- 新的好友 -->
+        <activity
+            android:name="com.efounder.chat.activity.New_FriendsActivity"
+            android:launchMode="singleTask"
+            android:parentActivityName="com.pansoft.openplanet.activity.TabBottomActivityForTalkChain"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pansoft.openplanet.activity.TabBottomActivityForTalkChain" />
+        </activity>
+        <!-- 个人信息 -->
+        <activity
+            android:name="com.efounder.chat.activity.MyUserInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+
+        <!-- 添加好友:好友详情 -->
+        <activity
+            android:name="com.efounder.chat.activity.AddFriendUserDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+
+        <!-- 共享位置-->
+        <activity
+            android:name="com.efounder.chat.activity.BaiduMapActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+        <!-- h-应用号-->
+        <activity
+            android:name="com.efounder.frame.activity.EFAppAccountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <!-- h-应用号2-->
+        <activity
+            android:name="com.efounder.frame.activity.EFAppAccountMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="stateHidden|adjustPan"></activity>
+        <!-- h-Fragment转Activity-->
+        <activity
+            android:name="com.efounder.frame.activity.EFTransformFragmentActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustResize"></activity>
+
+        <!-- selectImage -->
+        <activity
+            android:name="com.pizidea.imagepicker.ui.activity.ImageCropActivity"
+            android:label="@string/app_name"
+            android:theme="@style/horizontal_slide">
+
+        </activity>
+
+        <activity
+            android:name="com.pizidea.imagepicker.ui.activity.ImagePreviewActivity"
+            android:label="@string/app_name"
+            android:theme="@style/horizontal_slide">
+
+
+        </activity>
+
+
+        <activity
+            android:name="com.pizidea.imagepicker.ui.activity.ImagesGridActivity"
+            android:label="@string/app_name"
+            android:theme="@style/horizontal_slide"></activity>
+        <!-- selectImage -->
+
+
+        <!--这里输入百度密钥-->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="7vyMqyhU2tM61O1UxyANPjEmGRrtg966" />
+        <!--高德地图key-->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="f092753eaedf32be774d1760d82331a3" />
+        <service android:name="com.amap.api.location.APSService" />
+        <!--百度的远程服务-->
+        <!--<service-->
+            <!--android:name="com.baidu.location.f"-->
+            <!--android:enabled="true"-->
+            <!--android:process=":remote" />-->
+        <!--  监听网络状态服务 -->
+        <!--<service
+            android:name="com.efounder.chat.utils.NetworkStateService"
+            android:enabled="true" />-->
+        <service
+            android:name="com.efounder.chat.service.MessageService"
+            android:enabled="true" />
+        <!--  收发消息Socket服务 -->
+        <!--<service
+            android:name="com.efounder.chat.service.JFSocketManagerService"
+            android:enabled="true" />-->
+        <!--  监听添加好友服务 -->
+        <service
+            android:name="com.efounder.chat.service.SystemInfoService"
+            android:enabled="true" />
+
+
+        <activity
+            android:name="com.efounder.form.comp.multiple_images_selector.GalleryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"></activity>
+
+        <!--支持URL scheme 的加群页面-->
+        <activity
+            android:name="com.efounder.chat.activity.AddGroupUserInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide">
+            <intent-filter>
+                <!-- 下面这几个必须要设置 -->
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- 协议部分 -->
+                <data
+                    android:host="ipcom.io"
+                    android:path="/g"
+                    android:scheme="ipcom" />
+            </intent-filter>
+        </activity>
+        <!--星际资讯-->
+        <activity
+            android:name="com.efounder.news.activity.DetailNewsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <!-- 下面这几个必须要设置 -->
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- 协议部分 -->
+                <data
+                    android:host="ipcom.io"
+                    android:path="/n"
+                    android:scheme="ipcom" />
+            </intent-filter>
+        </activity>
+        <!--商品详情 ipcom:ipcom.io/mall?goobh=xxx-->
+        <activity
+            android:name="com.efounder.activity.ProductDetailsActivity"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <!-- 下面这几个必须要设置 -->
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- 协议部分 -->
+                <data
+                    android:host="ipcom.io"
+                    android:path="/mall"
+                    android:scheme="ipcom" />
+            </intent-filter>
+        </activity>
+        <!-- 友盟分享 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5b0cad7af43e480b490000ee" />
+        <!--<activity-->
+        <!--android:name=".wxapi.WXEntryActivity"-->
+        <!--android:configChanges="keyboardHidden|orientation|screenSize"-->
+        <!--android:exported="true"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.Translucent.NoTitleBar" />-->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1106937158" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.efounder.chat.activity.JFChatActivity"
+            android:launchMode="singleTask"
+            android:parentActivityName="com.pansoft.openplanet.activity.TabBottomActivityForTalkChain"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <!-- 聊天 -->
+        <!--<activity
+            android:name="com.efounder.chat.activity.ChatListActivity"
+            android:theme="@style/horizontal_slide" >
+        </activity>-->
+        <service
+            android:name="com.efounder.chat.service.OSPService"
+            android:process=":gray" />
+        <service
+            android:name="com.efounder.chat.service.WatchService"
+            android:process=":remote" />
+
+        <receiver
+            android:name="com.efounder.chat.service.WatchReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote" />
+
+        <service
+            android:name="com.efounder.chat.service.OSPService$GrayInnerService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":gray" />
+
+        <receiver
+            android:name="com.efounder.chat.service.WakeReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":gray">
+            <intent-filter>
+                <action android:name="com.custom.wake.gray" />
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER" />
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_UNREGISTER" />
+                <!-- 【可选】 一些常用的系统广播，增强service的复活机会，请根据需要选择。当然，你也可以添加APP自定义的一些广播让启动service -->
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <!--
+                     The API key for Google Maps-based APIs is defined as a string resource.
+                     (See the file "res/values/google_maps_api.xml").
+                     Note that the API key is linked to the encryption key used to sign the APK.
+                     You need a different API key for each encryption key, including the release key that is used to
+                     sign the APK for publishing.
+                     You can define the keys for the debug and release targets in src/debug/ and src/release/.
+                -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <!-- end of google map api key-->
+
+        <activity
+            android:name="com.efounder.activity.GMapViewLocationActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.efounder.activity.MapsActivityCurrentPlace"
+            android:screenOrientation="portrait"/>
+    </application>
+
+    <supports-screens android:anyDensity="true" />
+
+</manifest>

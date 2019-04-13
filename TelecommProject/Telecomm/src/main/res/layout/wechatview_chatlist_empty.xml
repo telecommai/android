@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/frame_white_background_color">
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/chatlist_empty"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/opneplanet_have_no_message"
+        android:textSize="16dp"
+        android:textColor="@color/black_text_color"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:text="@string/opneplanet_every_has_possiable"
+        android:textColor="@color/white_text_color"/>
+    <Button
+        android:id="@+id/btn_start_trip"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:background="@drawable/login_button_shape"
+        android:text="@string/opneplanet_start_openplanet"
+        android:textColor="@color/white_text_color"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+
+
+</LinearLayout>

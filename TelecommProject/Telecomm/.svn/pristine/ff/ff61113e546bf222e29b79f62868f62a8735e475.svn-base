@@ -1,0 +1,10 @@
+{
+    "type":"bubble",
+    "name":"gold",
+    "no":"1001",
+    "count":"6",
+    "repeat":"1",
+    "holder":"bubble_1001_00005.png",
+    "incoming":"136,68,0",
+    "outgoing":"136,68,0"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<color name="zone_send_post_textcolor">@color/black_text_color</color>-->
+    <!--color文件中这样写的颜色值会导致换肤框架加载颜色值的时候出错，其他项目中没有换肤功能，颜色值只有使用@color的方式只能做到动态跟随颜色的改变，-->
+    <!--所以像空间库 wechatview库颜色值我们还是要使用>@color/...这种方式；-->
+    <!--支持换肤的应用中，默认主题下，我们需要把这些颜色值抽取一份，颜色值跟之前的一样，但是不能使用@color的写法，这样换肤才会生效-->
+    <!--<color name="zone_send_post_textcolor">#2a2a2a</color>-->
+
+
+    <!--评论框背景颜色-->
+    <color name="mobile_zone_comment_dialog_bgcolor">#F5F5F5</color>
+    <!--发送说说字体颜色-->
+    <color name="zone_send_post_textcolor">#2a2a2a</color>
+    <!--网络错误提示字体颜色-->
+    <color name="network_error_text_color">#2a2a2a</color>
+    <!--聊天输入框光标的颜色-->
+    <color name="jfchatactivity_bottom_editext_curcor_color">#1b82d2</color>
+
+    <!--secretinutview 颜色值-->
+    <color name="wechatview_secretinutview_title_textColor">#1b82d2</color>
+    <color name="wechatview_secretinutview_close_icon_tintcolor">@color/white</color>
+    <color name="wechatview_secretinutview_editext_bg_color">#F5F5F5</color>
+
+    <!--禁言文字颜色-->
+    <color name="wechatview_ban_speak_textcolor">#999999</color>
+    <!--禁言背景色-->
+    <color name="wechatview_ban_speak_bgcolor">#F5F5F5</color>
+    <!--以下颜色与白色灰色无关 ，前景色 背景色 前景色中的字体颜色-->
+    <!--前景色-->
+    <color name="wechatview_forecolor">#FFFFFF</color>
+    <!--背景色-->
+    <color name="wechatview_backgroundcolor">#F5F5F5</color>
+    <!--前景色中的字体颜色-->
+    <color name="wechatview_fore_textColor">#000000</color>
+    <!--前景色中的 editext zhong  hint颜色-->
+    <color name="wechatview_fore_textColor_hint">#d9d9d9</color>
+    <color name="wechatview_content_bottom_padding">#ffffff</color>
+    <!--多设备登录下线按钮 背景颜色-->
+    <color name="wechatview_muti_device_text_bgshape_color">#1b82d2</color>
+
+    <!--tabbar文字选中时颜色-->
+    <color name="tabbar_text_select_color">#1b82d2</color>
+    <!--tabbar图标选中时颜色-->
+    <color name="tabbar_icon_select_color">#1b82d2</color>
+</resources>

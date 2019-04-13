@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_userandpass"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/tc_bg_gray"
+    android:orientation="vertical">
+    <com.efounder.pansoft.chat.input.ChatInputView
+        android:id="@+id/chat_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+     />
+
+
+</RelativeLayout>

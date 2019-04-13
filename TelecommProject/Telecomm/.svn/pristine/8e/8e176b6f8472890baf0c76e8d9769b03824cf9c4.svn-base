@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login_userandpass"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/op_login_primary_bg_color"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/login_password_bg" />
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/login_white_back" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintlayout"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/transparent">
+
+        <View
+            android:layout_marginTop="50dp"
+            android:background="@drawable/round_coner_float_window"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <com.efounder.widget.RoundAngleImageView
+            android:id="@+id/iv_icon"
+            app:roundHeight="10dp"
+            app:roundWidth="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:visibility="gone"
+            android:src="@drawable/login_password"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+        <TextView
+            android:id="@+id/tv_welcome"
+            android:text="输入邀请码"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_icon"
+            android:textColor="@color/op_login_text_white_color"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="0dp"
+            android:layout_height="21dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:gravity="left"
+            android:paddingLeft="18dp"
+            android:hint="请输入邀请码"
+            android:inputType="text"
+            android:textColor="@color/op_login_text_white_color"
+            android:textColorHint="@color/op_login_edit_hint_color"
+            android:textCursorDrawable="@drawable/edit_cursor_color"
+            android:textSize="15dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_welcome" />
+
+        <View
+            app:layout_constraintTop_toBottomOf="@+id/et_password"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/op_login_divider_line_color"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp" />
+
+        <Button
+            android:id="@+id/tv_login"
+            android:text="@string/common_text_next_step"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_password"
+            android:layout_marginTop="40dp"
+            android:textSize="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/op_login_text_white_color"
+            android:gravity="center"
+            android:background="@drawable/login_button_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

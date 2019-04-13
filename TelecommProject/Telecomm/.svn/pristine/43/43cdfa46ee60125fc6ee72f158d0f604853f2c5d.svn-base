@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="mobile_menu" caption="移动菜单设置">
+	
+    <GroupRoot>
+    	<node id="common" caption="公告" icon="group_function_1"/>
+    	<node id="punchcard" caption="打卡" icon="group_function_2_" viewType="display" AndroidShow="com.efounder.chat.activity.WorkCardActivity" show="com.efounder.chat.activity.WorkCardActivity"/>
+    	<node id="album" caption="相册" icon="group_function_3"/>
+    	<node id="topic" caption="话题" icon="group_function_4"/>
+    	<node id="calendar" caption="群日历" icon="group_function_5"/>
+    	<node id="vote" caption="群投票" icon="group_function_6"/>
+    	<node id="link" caption="群链接" icon="group_function_7"/>
+    	<node id="more" caption="更多" icon="group_function_8"viewType="display" AndroidShow="com.efounder.MoreGroupSettingsActivity" />
+    </GroupRoot>
+
+</package>

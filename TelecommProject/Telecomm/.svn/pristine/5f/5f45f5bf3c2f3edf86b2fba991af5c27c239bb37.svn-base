@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_chat_group_address"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--表头-->
+    <include layout="@layout/frag_titlebar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_43dp"
+        android:background="#eee"
+        android:visibility="gone"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_address_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/common_text_cancel"
+            android:onClick="onClick"
+            android:textColor="@color/title_TextColor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/chat_location"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_address_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:onClick="onClick"
+            android:text="@string/common_text_confirm"
+            android:textColor="@color/blue" />
+
+    </LinearLayout>
+    <!--分割线-->
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0.5dp"-->
+    <!--android:background="@color/divide_line_color" />-->
+    <!--搜索功能-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="@color/frame_gray_background_color"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/ll_chat_group_search"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:onClick="onClick"
+            android:background="@drawable/bg_group_address"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ar5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/chat_search_site"
+                android:textColor="@color/edit_hint_text_color"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_search_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/common_text_cancel"
+            android:visibility="gone"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:textColor="@color/btn_green_noraml"/>
+    </LinearLayout>
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="5dp"
+        tools:context="com.efounder.activity.MapsActivityCurrentPlace" />
+    <!--ptr:ptrAnimationStyle="flip"-->
+    <!--ptr:ptrMode="both"-->
+    <!--周围兴趣点-->
+    <!--   <com.pansoft.pullrefresh.ui.PullToRefreshListView
+           android:id="@+id/lv_poi"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:divider="#00ff00"
+           android:dividerHeight="2dp"
+           android:fadingEdge="none"
+           />-->
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/lv_poi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="0.3dp"
+        android:divider="@color/divide_line_color"
+        android:fadingEdge="none"
+        android:background="@color/frame_white_background_color"
+        ptr:ptrHeaderTextColor="@color/black_text_color"
+        ptr:ptrHeaderBackground="@color/frame_white_background_color"
+        />
+</LinearLayout>

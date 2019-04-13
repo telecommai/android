@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--头像前景帧动画-->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/animation_gold_00000"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00001"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00002"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00003"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00004"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00005"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00006"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00007"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00008"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00009"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00010"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00011"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00012"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00013"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00014"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00015"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00016"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00017"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00018"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00019"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00020"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00021"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00022"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00023"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00024"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00025"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00026"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00027"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00028"
+        android:duration="66" />
+    <item
+        android:drawable="@drawable/animation_gold_00029"
+        android:duration="66" />
+    
+</animation-list>

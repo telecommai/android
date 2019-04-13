@@ -1,0 +1,9 @@
+#≥ı ºªØ≈‰÷√
+APPID = OSPMobileLiveApp
+ServerKey = WXExternalInterfaceDataService
+DefaultServerAddress = mobile.osp.cloud
+IMBaseUrl = http://im.osp.cloud
+DefaultServerHttpType = http
+DefaultServerPort = 80
+DefaultServerPath = ESTMobile
+PublicNumberMainDataDownUrl = http://atop.osp.cloud/AtoP/AppGetUserData?userName=

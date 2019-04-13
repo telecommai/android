@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="mobile_menu" caption="移动菜单设置">
+	
+	<!--Turbo新界面首页的配置菜单-->
+    <NewAssetRoot>
+    	<!-- <node id="transaction" caption="交易" multiLanguageKey="tab_menu_new_asset_tx" icon="new_asset_icon_tx" viewType="display" AndroidShow="tx"/> -->
+    	<node id="red_packet" caption="红包" multiLanguageKey="tab_menu_chat_red_packet" icon="new_asset_icon_red_packet" viewType="display" AndroidShow="com.pansoft.openplanet.activity.LuckMoneyPrepareActivity"/>
+    	<node id="air_drop" caption="空投" multiLanguageKey="tab_menu_new_asset_air_drop" icon="new_asset_icon_air_drop" viewType="display" AndroidShow="com.pansoft.openplanet.activity.AirDropActivity"/>
+    	<node id="safe" caption="安全加固" multiLanguageKey="tab_menu_new_asset_safety" icon="new_asset_icon_safe" viewType="display" AndroidShow="safe"/>
+    	<node id="recharge" caption="充值" multiLanguageKey="tab_menu_new_asset_recharge" icon="new_asset_icon_recharge" viewType="display" AndroidShow=""/>
+    	<node id="escrow" caption="托管账户" multiLanguageKey="tab_menu_new_asset_escrow" icon="new_asset_icon_escrow" viewType="display" AndroidShow="com.pansoft.openplanet.activity.EscrowAccountActivity"/>
+    	<node id="one_click_send" caption="一键发币" multiLanguageKey="tab_menu_new_asset_one_click" icon="new_asset_icon_one_click" viewType="display" AndroidShow="todo"/>
+		<node id="my_device" caption="我的设备" multiLanguageKey="chat_my_device" icon="new_asset_icon_my_device" viewType="display" AndroidShow="com.efounder.chat.fragment.MultiLoginListFragment"/>
+    	<node id="more" caption="更多" multiLanguageKey="tab_menu_new_asset_more" icon="new_asset_icon_more" />
+    </NewAssetRoot>
+
+	<!--总资产的列表配置-->
+	<TotalAssetRoot>
+		<node id="total_assets" caption="总资产" style="MagicIndicatorStyle"  menuType="star_asset_wallet_change"/>
+	</TotalAssetRoot>
+
+	<total_assets>
+	    <node id="total" caption="总资产" multiLanguageKey="tab_menu_total_asset" viewType="display" showRightTopButton="0" AndroidShow="com.pansoft.openplanet.fragment.TotalAssetsFragment" showBackImg="1" />
+		<!-- <node id="pwr" caption="PWR" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.TalkChainMyFragment" showRightTopButton="0"/> -->
+		<node id="pwr" caption="PWR" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.PWRWalletListFragment" showRightTopButton="0"/>
+		<node id="eth" caption="ETH" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.ETHWalletListFragment"/>
+		<node id="etc" caption="ETC" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.EmptyBlockChainListFragment"/>
+		<node id="btc" caption="BTC" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.BTCWalletListFragment"/>
+		<node id="bch" caption="BCH" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.EmptyBlockChainListFragment"/>
+		<node id="eos" caption="EOS" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.EOSWalletListFragment"/>
+		<node id="btm" caption="BTM" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.EmptyBlockChainListFragment"/>
+		<node id="ltc" caption="LTC" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.EmptyBlockChainListFragment"/>
+		<node id="xrp" caption="XRP" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.EmptyBlockChainListFragment"/>
+		<node id="gxm" caption="GXM" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.EmptyBlockChainListFragment"/>
+		<node id="qtum" caption="QTUM" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.EmptyBlockChainListFragment"/>
+		<node id="act" caption="ACT" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.EmptyBlockChainListFragment"/>
+	</total_assets>
+
+</package>

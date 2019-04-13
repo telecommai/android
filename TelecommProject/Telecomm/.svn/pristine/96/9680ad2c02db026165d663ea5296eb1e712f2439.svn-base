@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="mobile_menu" caption="移动菜单设置">
+	<menuRoot>
+		<node id="wode" caption="资产" multiLanguageKey="tab_menu_asset" menuIcon="asset_normal" selectedIcon="asset_sel" normalIcon="asset_normal" style="MagicIndicatorStyle"  menuType="star_asset_wallet_change" />
+		<node id="xiaoxi" caption="朋友" multiLanguageKey="tab_menu_friend" menuIcon="social_normal" selectedIcon="social_sel" normalIcon="social_normal" menuType="add"  style="qqstyle"  badgeDraggable="true"/>
+		<node id="explore" caption="探索" multiLanguageKey="tab_menu_explore" menuIcon="turbo_normal" selectedIcon="turbo_sel" normalIcon="turbo_normal" menuType="tansuo" style="MagicIndicatorStyle" topOut="true" />
+		<node id="health" caption="健康" multiLanguageKey="tab_menu_health" menuIcon="health_normal" selectedIcon="health_sel" normalIcon="health_normal"  style="MagicIndicatorStyle" menuType="xingji" />
+		<node id="news" caption="资讯" multiLanguageKey="tab_menu_news" menuIcon="news_normal" selectedIcon="news_sel" normalIcon="news_normal" style="MagicIndicatorStyle" menuType=""/>
+
+	</menuRoot>
+
+	<xiaoxi>
+		<node id="message" caption=" 消息 " multiLanguageKey="tab_menu_message" viewType="message" showBadge='true' canScroll="1" itemMenuType='add'  />
+		<node id="tansuo" caption="引力场(全部)" multiLanguageKey="tab_menu_gravitational_field" viewType="display" AndroidShow="com.efounder.zone.fragment.OpenMainZoneFragment"  hasArrow="1"   hideZoneTitle="1" showBadge='false'  itemMenuType=''  />
+		<node id="txl" caption="星际" multiLanguageKey="tab_menu_interstellar" viewType="txl"  primaryMenu='0' showBadge='false' menuType="import"  />
+	</xiaoxi>
+	
+	<health>
+		<node id="jiankang" caption="健康" multiLanguageKey="tab_menu_health" viewType="display" AndroidShow="com.pansoft.mobilefitness.fragment.HealthHomeFragment"  showBadge='false'   />
+	</health>
+	
+	<contact>
+		<node id="txl" caption="星际" multiLanguageKey="tab_menu_interstellar" viewType="txl" showBadge='false'  />
+	</contact>
+	<explore>
+		<node id="mall" caption="星际商城" multiLanguageKey="tab_menu_mall" viewType="display" AndroidShow="com.efounder.fragment.MallRecommendFragment" showBadge='false'/>
+		<!-- <node id="bank" caption="星际银行" multiLanguageKey="tab_menu_bank" viewType="display" AndroidShow="com.efounder.fragment.SimpleWebFragmentWithRefresh"  showBadge='false' url="http://fgchain.io/lcb-xj/lc_rmtj.html?USERID=" needUserName="1" showRightTopButton="0"/> -->
+		<node id="bank" caption="星际影视" multiLanguageKey="tab_menu_movie" viewType="display" AndroidShow="com.efounder.fragment.SimpleWebFragmentWithRefresh"  showBadge='false' url="http://211.87.224.140:8181/OSPServerMall/xjyc/xjyc.html"  showRightTopButton="0"/>
+		<node id="mall" caption="星际行情" multiLanguageKey="tab_menu_market" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.BtckanFragment" showBadge='false' showRightTopButton="0"/>
+	</explore>
+	
+	
+	
+	<gongzuo>
+		<node id="jy" caption="交易" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.TransactionFragment"/>
+		<node id="mc1" caption="籴(dí)米" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.MarketBuyListFragment"/>
+		<node id="mc2" caption="粜(tiào)米" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.MarketSellListFragment"/>
+	</gongzuo>
+	
+	<zixun>
+	   <node id="new_zuixin" caption="最新" multiLanguageKey="tab_menu_latest" channelId=""/>
+       <node id="new_chuangtou" caption="创投" multiLanguageKey="tab_menu_venture_capital" channelId="0001"/>
+	   <node id="new_qkl" caption="区块链" multiLanguageKey="tab_menu_blockchain" channelId="0002"/>
+	   <node id="new_zc" caption="政策" multiLanguageKey="tab_menu_policy" channelId="0003"/>
+	   <node id="new_btc" caption="比特币" multiLanguageKey="tab_menu_bitcoin" channelId="0004"/>
+	   <node id="new_jzb" caption="竞争币" multiLanguageKey="tab_menu_altCoin" channelId="0005"/>
+	   <node id="new_fgt" caption="FGT" multiLanguageKey="tab_menu_fgt" channelId="0006" />
+	</zixun>
+	<news>
+	   <node id="zixun" caption=" 资讯 " multiLanguageKey="tab_menu_news" viewType="display" showBadge='true' AndroidShow="com.efounder.news.fragment.NewsFragment" canScroll="1" showRightTopButton="0" />
+	</news>
+	
+	
+	<wode>
+		 <!--<node id="open_planet_name" caption="基地" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.TalkChainMyFragment"  hideTitle="1"/>-->
+		<node id="total_assets" caption="总资产" multiLanguageKey="tab_menu_total_asset" viewType="display" showRightTopButton="0" AndroidShow="com.pansoft.newasset.fragment.NewAssetMain2Fragment" hideTitle="1" />
+		<!--<node id="open_planet_name" caption="PWR" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.TalkChainMyFragment" />
+		<node id="eth" caption="ETH" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.ETHWalletListFragment"/>
+		<node id="etc" caption="ETC" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.EmptyBlockChainListFragment"/>
+		<node id="btc" caption="BTC" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.BTCWalletListFragment"/>
+		<node id="bch" caption="BCH" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.EmptyBlockChainListFragment"/>
+		<node id="eos" caption="EOS" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.EOSWalletListFragment"/>
+		<node id="btm" caption="BTM" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.EmptyBlockChainListFragment"/>
+		<node id="ltc" caption="LTC" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.EmptyBlockChainListFragment"/>
+		<node id="xrp" caption="XRP" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.EmptyBlockChainListFragment"/>
+		<node id="gxm" caption="GXM" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.EmptyBlockChainListFragment"/>
+		<node id="qtum" caption="QTUM" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.EmptyBlockChainListFragment"/>
+		<node id="act" caption="ACT" viewType="display" AndroidShow="com.pansoft.openplanet.fragment.EmptyBlockChainListFragment"/>-->
+	</wode>
+</package>

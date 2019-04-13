@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "193309604704",
+    "firebase_url": "https://turbopay-c4f48.firebaseio.com",
+    "project_id": "turbopay-c4f48",
+    "storage_bucket": "turbopay-c4f48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193309604704:android:1c0a469286faea1d",
+        "android_client_info": {
+          "package_name": "io.telecomm.telecomm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193309604704-5u2ipfck0dil61b5g4ne5e4c274k6sve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIOKOWce_8i-r84peCK-9_QYVTtcAIqZ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

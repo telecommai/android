@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="mobile_menu" caption="移动菜单设置">
+    <script>
+        <node id="EFRowSet" clazz="com.efounder.builder.base.data.EFRowSet" name="EFRowSet"/>
+		<node id="EFDataSet" clazz="com.efounder.builder.base.data.EFDataSet" name="EFDataSet"/>
+        <node id="ToastUtil" clazz="com.efounder.util.ToastUtil" name="ToastUtil"/>
+        <node id="ShoppingUtils" clazz="com.efounder.form.comp.shoppingcar.ShoppingUtils" name="ShoppingUtils"/>
+        <node id="StringUtil" clazz="com.efounder.util.StringUtil" name="StringUtil"/>
+        <node id="DateUtil" clazz="com.efounder.util.DateUtil" name="DateUtil"/>
+        <node id="EnvironmentVariable" clazz="com.efounder.constant.EnvironmentVariable" name="EnvironmentVariable"/>
+        <node id="JFMessageManager" clazz="com.efounder.message.manager.JFMessageManager" name="JFMessageManager"/>
+        <node id="EFFormDataModel" clazz="com.efounder.form.EFFormDataModel" name="EFFormDataModel"/>
+		<node id="MDModel" clazz="com.efounder.form.model.MDModel" name="MDModel"/>
+
+		<node id="ModelContainer" clazz="com.efounder.form.model.ModelContainer" name="ModelContainer"/>
+        <node id="JSONFormModel" clazz="com.efounder.form.model.JSONFormModel" name="JSONFormModel"/>		
+        <node id="FormDataSetFieldComboBox" clazz="com.efounder.form.comp.FormDataSetFieldComboBox" name="FormDataSetFieldComboBox"/>		
+        <node id="FormAffixServerButton" clazz="com.efounder.form.comp.FormAffixServerButton" name="FormAffixServerButton"/>		
+        <node id="FormTextInput" clazz="com.efounder.form.comp.FormTextInput" name="FormTextInput"/>		
+        <node id="ShoppingCar" clazz="com.efounder.form.comp.shoppingcar.ShoppingCar" name="ShoppingCar"/>		
+        <node id="JSONFormModelDBLoadService" clazz="com.efounder.form.service.JSONFormModelDBLoadService" name="JSONFormModelDBLoadService"/>		
+        <node id="FormLabel" clazz="com.efounder.form.comp.FormLabel" name="FormLabel"/>		
+        <node id="FormRadioGroup" clazz="com.efounder.form.comp.FormRadioGroup" name="FormRadioGroup"/>
+        <node id="HGroup" clazz="com.efounder.form.comp.HGroup" name="HGroup"/>
+
+    </script>
+    
+    <EFRowSet>
+         <node id="put" name="put" parameter="java.lang.Object;java.lang.Object"/>
+         <node id="getString" name="getString" parameter="java.lang.String;java.lang.String"/>
+		 <node id="putString" name="putString" parameter="java.lang.String;java.lang.String"/>	 
+    </EFRowSet>
+    <ToastUtil>
+         <node id="showToast" name="showToast" parameter="android.content.Context;int"/>
+         <node id="log" name="log" parameter="java.lang.String;java.lang.String"/>
+         <node id="showToast" name="showToast" parameter="java.lang.String;int"/>		 
+    </ToastUtil>	
+    <ShoppingUtils>
+         <node id="isNULLForShoppingCar" name="isNULLForShoppingCar" parameter="com.efounder.form.comp.shoppingcar.ShoppingCar"/>
+         <node id="isNULLForShoppingShow" name="isNULLForShoppingShow" parameter="com.efounder.form.comp.shoppingshow.ShoppingShow"/>
+         <node id="mergeFormModel" name="mergeFormModel" parameter="com.efounder.form.model.JSONFormModel;com.efounder.form.model.ShoppingCarFormModel;java.lang.String"/>
+         <node id="getSelfName" name="getSelfName" parameter=""/>
+         <node id="gotoChatAfterConfirm" name="gotoChatAfterConfirm" parameter=""/>
+         <node id="sendBroadcastRefreshChat" name="sendBroadcastRefreshChat" parameter=""/>
+
+    </ShoppingUtils>
+    <StringUtil>
+         <node id="getGUID" name="getGUID" parameter=""/>
+    </StringUtil>
+    <DateUtil>
+         <node id="getTimeStamp" name="getTimeStamp" parameter=""/>
+         <node id="getCurrentDate" name="getCurrentDate" parameter="java.lang.String"/>
+         <node id="getCurrentDateTime" name="getCurrentDateTime" parameter="java.lang.String"/>
+    </DateUtil>
+    <EnvironmentVariable>
+         <node id="getUserID" name="getUserID" parameter=""/>
+    </EnvironmentVariable>
+    <JFMessageManager>
+         <node id="sendFormMessage" name="sendFormMessage" parameter="int;java.lang.String"/>
+         <node id="queryMessage" name="queryMessage" parameter="java.lang.String"/>
+         <node id="updateMessage" name="updateMessage" parameter="com.efounder.message.struct.IMStruct002"/>		 
+
+    </JFMessageManager>
+    <EFFormDataModel>
+         <node id="getBillDataSet" name="getBillDataSet" parameter=""/>
+    </EFFormDataModel>	
+    <EFDataSet>
+         <node id="getRowSet" name="getRowSet" parameter=""/>
+    </EFDataSet>	
+    <IMStruct002>
+         <node id="getMessage" name="getMessage" parameter=""/>
+		 <node id="setMessage" name="setMessage" parameter="java.lang.String"/>
+    </IMStruct002>
+    <MDModel>
+        <node id="getMdmDataModel" name="getMdmDataModel" parameter="com.efounder.mdm.EFMDMDataModel"/>
+    </MDModel>
+	
+	
+    <JSONFormModel>
+         <node id="load" name="load" parameter=""/>
+         <node id="convert2DataJSON" name="convert2DataJSON" parameter=""/>	
+         <node id="getFormDataModel" name="getFormDataModel" parameter=""/>	
+    </JSONFormModel>	
+    <FormDataSetFieldComboBox>
+         <node id="getText" name="getText" parameter=""/>
+         <node id="getMainRowSet" name="getMainRowSet" parameter=""/>
+         <node id="getDataSetColID" name="getDataSetColID" parameter=""/>
+         <node id="getCurrentRowSet" name="getCurrentRowSet" parameter=""/>
+
+    </FormDataSetFieldComboBox>	
+    <FormAffixServerButton>
+         <node id="isUpLoadOver" name="isUpLoadOver" parameter=""/>
+         <node id="clear" name="clear" parameter=""/>		 
+    </FormAffixServerButton>	
+    <FormTextInput>
+         <node id="getMainRowSet" name="getMainRowSet" parameter=""/>
+         <node id="getDataSetColID" name="getDataSetColID" parameter=""/>
+		 <node id="getText" name="getText" parameter=""/>
+    </FormTextInput>	
+    <ShoppingCar>
+         <node id="gotoChat" name="gotoChat" parameter=""/>
+    </ShoppingCar>
+    <ModelContainer>
+         <node id="getValue" name="getValue" parameter="java.lang.String;java.lang.Object"/>
+    </ModelContainer>		
+    <JSONFormModelDBLoadService>
+         <node id="setMessageID" name="setMessageID" parameter="java.lang.String"/>
+    </JSONFormModelDBLoadService>	
+    <FormLabel>
+         <node id="getMainRowSet" name="getMainRowSet" parameter=""/>
+         <node id="getDataSetColID" name="getDataSetColID" parameter=""/>		
+    </FormLabel>		
+    <FormSign>
+         <node id="getMainRowSet" name="getMainRowSet" parameter=""/>
+         <node id="getDataSetColID" name="getDataSetColID" parameter=""/>		
+    </FormSign>
+    <FormRadioGroup>
+        <node id="getMainRowSet" name="getMainRowSet" parameter=""/>
+        <node id="getDataSetColID" name="getDataSetColID" parameter=""/>
+    </FormRadioGroup>
+    <HGroup>
+        <node id="setVisible" name="setVisible" parameter="java.lang.Boolean"/>
+    </HGroup>
+
+</package>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="mobile_menu" caption="移动菜单设置">
+	
+    <MallRoot>
+    	<node id="mall_home" caption="首页" menuIcon="home_normal" selectedIcon="home_focus" normalIcon="home_normal" viewType="display" AndroidShow="com.efounder.fragment.MallRecommendFragment"/>
+    	<node id="mall_cart" caption="购物车" menuIcon="cart_normal" selectedIcon="cart_focus" normalIcon="cart_normal" viewType="display" AndroidShow="com.efounder.fragment.MallCartFragment"/>
+	<node id="mall_mine" caption="我的" menuIcon="kaola_normal" selectedIcon="kaola_focus" normalIcon="kaola_normal" viewType="display" AndroidShow="com.efounder.fragment.MyPagerFragment"/>
+    </MallRoot>
+
+</package>

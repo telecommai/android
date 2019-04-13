@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Telecomm" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":Telecomm" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="devDebug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDevDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDevDebugSources" />
+        <afterSyncTasks>
+          <task>generateDevDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res;file://$MODULE_DIR$/src/debug/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+    <output url="file://$MODULE_DIR$/build/intermediates/classes/dev/debug" />
+    <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/dev/debug" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/dev/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/dev/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/dev/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/dev/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/dev/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/google-services/dev/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/dev/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/dev/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/devDebug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/devDebug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/devDebug/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/devDebug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/devDebug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/devDebug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/devDebug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/dev/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/dev/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/dev/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/dev/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/dev/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/dev/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/dev/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDevDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDevDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDevDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDevDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDevDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDevDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDevDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/test/dev/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDevDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDevDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDevDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDevDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDevDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDevDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDevDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/dev/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/dev/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/dev/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/dev/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/dev/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/dev/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/dev/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDev/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDev/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDev/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDev/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDev/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDev/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDev/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDev/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDev/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDev/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDev/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDev/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDev/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDev/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/build-info" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/bundles" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check-manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/data-binding-compiler" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/data-binding-info" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-classes" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-runtime-classes" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-verifier" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-resources" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-support" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaPrecompile" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/reload-dex" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/split-apk" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/splits-support" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
+      <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 27 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout-solver:1.0.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: ESPBase:@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.jnr:jnr-posix:3.0.33@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test.espresso:espresso-idling-resource-2.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: me.yokeyword:fragmentation-swipeback-1.3.6" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-core-16.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/ESPWeChatView/libs/processlive.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.exoplayer:exoplayer-dash-r2.4.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-compat-27.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:disklrucache:4.9.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/MobileStarAssetLib/libs/infura-3.3.1-android.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.jakewharton:butterknife-annotations:8.4.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-measurement-connector-impl-17.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.jnr:jnr-enxio:0.14@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/OSPMobileLib/libs/badgeview.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement-16.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test:rules-0.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-core-utils-27.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.exoplayer:exoplayer-r2.4.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.5@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/UShare/libs/umeng_social_shareview.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.amap.api:location:4.0.1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: javax.inject:javax.inject:1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.jnr:jnr-unixsocket:0.15@jar" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex.rxjava2:rxjava:2.1.10@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.greenrobot:greendao:3.2.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-places-placereport-16.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:common:1.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.zxing:core:3.3.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.rebound:rebound:0.3.8@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/UShare/libs/umeng_social_shareboard.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.greenrobot:eventbus:3.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: skin.support:flycotablayout-2.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: skin.support:skin-support-design-1.2.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.chihane:AndroidUtils-1.0.10" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex:rxjava:1.2.4@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/MobileComps/libs/smoothcompoundbuttonlibrary.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: pl.droidsonroids.gif:android-gif-drawable-1.2.12" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.exoplayer:exoplayer-hls-r2.4.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.yanzhenjie:sofia-1.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/MobileStarAssetLib/libs/crypto-3.3.1-android.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: ESPTreeLib:@aar" level="project" />
+    <orderEntry type="library" name="Gradle: tess-two-8.0.0:@aar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/MobileStarAssetLib/libs/tuples-3.3.1-android.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.amap.api:map2d:5.2.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.Raizlabs.DBFlow:dbflow-3.0.0-beta6" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.4.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.yuweiguocn:GreenDaoUpgradeHelper-v2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/UShare/libs/SocialSDK_QQ_Full.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-measurement-connector-17.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-maps-16.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.databinding:library-1.3.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.databinding:adapters-1.3.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.jnr:jnr-constants:0.9.6@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.scwang.smartrefresh:SmartRefreshLayout-1.1.0-alpha-11" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.6.2@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: javax.annotation:javax.annotation-api:1.2@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test.uiautomator:uiautomator-v18-2.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/XunFeiLibrary/libs/Msc.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-v4-27.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.jakewharton:butterknife-8.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.tencent.bugly:crashreport_upgrade-1.3.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: nl.jqno.equalsverifier:equalsverifier:2.1.7@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-media-compat-27.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.flyco.tablayout:FlycoTabLayout_Lib-2.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-core-ui-27.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: FormBuilder:@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm-util:5.0.3@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.findbugs:jsr305:2.0.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.exoplayer:exoplayer-ui-r2.4.3" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/MobileStarAssetLib/libs/geth-3.3.1-android.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm-analysis:5.0.3@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.hedgehog.ratingbar:app-1.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: me.yokeyword:eventbus-activity-scope-1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-fragment-27.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/UShare/libs/umeng-common-1.4.4.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/MobileManager/libs/BASE64.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3@jar" level="project" />
+    <orderEntry type="library" name="Gradle: pub.devrel:easypermissions-2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/ThirdPartyComps/libs/android-viewbadger.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/OSPMobileLib/libs/download.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/MobileStarAssetLib/libs/rlp-3.3.1-android.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.alibaba.android:vlayout-1.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/MobileStarAssetLib/libs/abi-3.3.1-android.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:gifdecoder-4.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: CloudDiskComps:@aar" level="project" />
+    <orderEntry type="library" name="Gradle: jp.wasabeef:glide-transformations-4.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.greenrobot:greendao-api:3.2.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.5@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.carrotsearch:junit-benchmarks:0.7.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/MobileMallPay/libs/libammsdk.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-location-16.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.exoplayer:exoplayer-core-r2.4.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics-impl-16.2.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-places-16.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-iid-17.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:runtime-1.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/UShare/libs/umeng_social_api.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.madgag.spongycastle:core:1.54.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-messaging-17.3.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.exoplayer:exoplayer-smoothstreaming-r2.4.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:transition-27.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.lzy.widget:ninegridview-0.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/UShare/libs/umeng_social_tool.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/MobileStarAssetLib/libs/parity-3.3.1-android.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.chrisbanes.photoview:library-1.2.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:cardview-v7-27.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks-16.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:annotations:4.9.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-base-16.0.5" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/MobileStarAssetLib/libs/codegen-3.3.1-android.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/UShare/libs/SocialSDK_WeChat_Simplify.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-common-16.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics-16.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: com.7heaven.widgets:segmentcontrol-1.16" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.jnr:jffi:1.2.14@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.readystatesoftware.chuck:library-no-op-1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test.espresso:espresso-core-2.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:glide-4.9.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup:javawriter:2.1.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:multidex-1.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.CymChad:BaseRecyclerViewAdapterHelper-2.9.34" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-vector-drawable-27.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.madgag.spongycastle:prov:1.54.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: XAlertDialogLibrary:@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.webkit:android-jsc-r174650" level="project" />
+    <orderEntry type="library" name="Gradle: TableFixHeaderLibrary:@aar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/XunFeiLibrary/libs/Sunflower.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-base-16.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: skin.support:skin-support-2.1.3" level="project" />
+    <orderEntry type="library" name="Gradle: me.yokeyword:fragmentation-core-1.3.6" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp-ws:3.4.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: skin.support:skin-support-constraint-layout-1.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.amap.api:search:6.1.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.databinding:baseLibrary:3.0.1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test:runner-0.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm:5.0.3@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/MobileStarAssetLib/libs/core-3.3.1-android.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup:javapoet:1.7.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.jnr:jnr-ffi:2.1.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: q.rorbin:badgeview-1.1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test:exposed-instrumentation-api-publish-0.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.Raizlabs.DBFlow:dbflow-core:3.0.0-beta6@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.9.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: PullToRefreshLib:@aar" level="project" />
+    <orderEntry type="library" name="Gradle: Tree_lib:@aar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/ThirdPartyComps/libs/tbs_sdk_20190111_105200.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.qmuiteam:qmui-1.1.10" level="project" />
+    <orderEntry type="library" name="Gradle: volley-1.1.1:@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable-27.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: WkVideoPlayerLib:@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-identifier-16.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/MobileStarAssetLib/libs/utils-3.3.1-android.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/UShare/libs/SocialSDK_Sina_Simplify.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-api-16.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:3.5.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:recyclerview-v7-27.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.core:common:1.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.tencent.bugly:nativecrashreport-2.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-stats-16.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/MobileMallPay/libs/alipaySdk-20170922.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm-tree:5.0.3@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.jnr:jffi:1.2.14:native@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/ThirdPartyComps/libs/pinyin4j-2.5.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/UShare/libs/umeng_social_net.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/ESPWeChatView/libs/badgeviewlaucherlib.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex.rxjava2:rxandroid-2.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout-1.0.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:design-27.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.alibaba:fastjson:1.1.46.android@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7-27.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.jnr:jnr-x86asm:1.0.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/UShare/libs/umeng_shareboard_widget.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-annotations:27.0.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm-commons:5.0.3@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/MobileStarAssetLib/libs/console-3.3.1-android.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-iid-interop-16.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-library:1.3@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-integration:1.3@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp-urlconnection:3.4.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.hackware1993:MagicIndicator-1.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/home/wang/AndroidProjects/SvnProj/UShare/libs/open_sdk_r5923_lite.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:logging-interceptor:3.4.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: mp3recorder:@aar" level="project" />
+    <orderEntry type="module" module-name="MobileMallPay" />
+    <orderEntry type="module" module-name="MobileManager" />
+    <orderEntry type="module" module-name="MobileMall" />
+    <orderEntry type="module" module-name="MobileComps" />
+    <orderEntry type="module" module-name="ThirdPartyComps" />
+    <orderEntry type="module" module-name="PushLibrary" />
+    <orderEntry type="module" module-name="MobileFitness" />
+    <orderEntry type="module" module-name="ESPWeChatView" />
+    <orderEntry type="module" module-name="AndroidMobileForWeChatComps" />
+    <orderEntry type="module" module-name="BluetoothLib" />
+    <orderEntry type="module" module-name="OSPMobileLib" />
+    <orderEntry type="module" module-name="UShare" />
+    <orderEntry type="module" module-name="MobileZoneLib" />
+    <orderEntry type="module" module-name="XunFeiLibrary" />
+    <orderEntry type="module" module-name="MobileNews" />
+    <orderEntry type="module" module-name="MobileStarAssetLib" />
+  </component>
+</module>

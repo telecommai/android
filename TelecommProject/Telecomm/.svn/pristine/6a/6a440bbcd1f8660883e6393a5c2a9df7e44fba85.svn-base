@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="option" caption="移动设置">
+    <optionRoot>
+		<node id="dynamic_message"  caption="新闻动态" serviceKey="MOBLIEManager" method="doGrabHtml" type="xw" title="F_XWBT" url="F_URL" rq="F_XWRQ"/>
+		<node id="meeting_apply"  caption="会议申请" />
+		<node id="document_approve"  caption="公文审批" />
+		<node id="contract_manager"  caption="合同管理" />
+
+        <node id="appupdate_1"      caption="应用程序升级地址"      type  ="sinopec"  serviceKey="MOBLIEManager"   url="m.sinopec.com"   default = "1" force = "0" />
+        <node id="appupdate_2"      caption="应用程序升级地址-备用"  type ="pansoft"  serviceKey="MoblieDMService" url="www.pansoft.com/mdm"  default ="0" force="0"/>
+
+        <node id="developmentUrl"      caption="发展情况"  type ="pansoft"  serviceKey="MoblieDMService" url="http://211.87.224.140:8181/OSPServer/Attendance/EF_Development.html"  default ="0" force="0"/>
+        <node id="singleReportUrl"      caption="单年级报告"  type ="pansoft"  serviceKey="MoblieDMService" url="http://211.87.224.140:8181/OSPServer/Attendance/EF_SingleReport.html"  default ="0" force="0"/>
+        <node id="mutiReportUrl"      caption="多年级对比"  type ="pansoft"  serviceKey="MoblieDMService" url="http://211.87.224.140:8181/OSPServer/Attendance/EF_MutiReport.html"  default ="0" force="0"/>
+        <node id="peClassUrl"      caption="体育课"  type ="pansoft"  serviceKey="MoblieDMService" url="http://211.87.224.140:8181/OSPServer/Attendance/EF_PEClass.html"  default ="0" force="0"/>
+        <node id="interestClassUrl"      caption="兴趣班"  type ="pansoft"  serviceKey="MoblieDMService" url="http://211.87.224.140:8181/OSPServer/Attendance/EF_InterestClass.html"  default ="0" force="0"/>
+        <node id="abilityAnalysisUrl"      caption="能力分析"  type ="pansoft"  serviceKey="MoblieDMService" url="http://211.87.224.140:8181/OSPServer/Attendance/EF_AbilityAnalysis.html"  default ="0" force="0"/>
+        <node id="individualAnalysisUrl"      caption="个体分析"  type ="pansoft"  serviceKey="MoblieDMService" url="http://211.87.224.140:8181/OSPServer/Attendance/EF_IndividualAnalysis.html"  default ="0" force="0"/>
+        <node id="groupActivitiesUrl"      caption="群体活动"  type ="pansoft"  serviceKey="MoblieDMService" url="http://211.87.224.140:8181/OSPServer/Attendance/EF_GroupActivities.html"  default ="0" force="0"/>
+        <node id="sdzxjiaoyu" caption="教育"  type ="1"  serviceKey="" url=""  default ="0" force="0" tag="sdzx" />
+        <node id="sdzxkeji" caption="科技"  type ="2"  serviceKey="" url=""  default ="0" force="0" tag="sdzx" />
+       <!-- <node id="sdzxjiankang" caption="健康"  type ="3"  serviceKey="" url=""  default ="0" force="0"/>-->
+        <node id="sdzxyiliao" caption="医疗"  type ="4"  serviceKey="" url=""  default ="0" force="0" tag="sdzx" />
+				
+		<node id="newsServiceUrl"      caption="新闻服务"  type ="pansoft"  serviceKey="MoblieDMService" url="http://mobile.solarsource.cn:9692/NewsService/"  default ="0" force="0"/>
+		
+    </optionRoot>
+	
+	<Contacts>
+		<node id="xdpy" caption="新的朋友" multiLanguageKey="tab_menu_new_friend" permission="" menuIcon="cicon_xdpy4"   AndroidShow=""/>
+		<node id="ql" caption="星际部落" multiLanguageKey="tab_menu_inter_planet_tribe" permission="" menuIcon="cicon_groupchat4"  AndroidShow=""/>
+		<node id="qtz" caption="星际通知" multiLanguageKey="tab_menu_inter_planet_notice" permission="" menuIcon="cicon_groupnotice4"  AndroidShow=""/>
+		<node id="yyh" caption="星际应用" multiLanguageKey="tab_menu_inter_planet_application" permission="" menuIcon="cicon_yyh4" viewType="display" AndroidShow="com.efounder.chat.fragment.PublicNumberListFragment"/>
+		<node id="xjhy" caption="星际合约" multiLanguageKey="tab_menu_inter_planet_contract" permission="" menuIcon="cicon_xjhy4"  AndroidShow="com.efounder.SDReactNativeContainerForTZ"/>
+	</Contacts>
+	<!-- 首页弹框组件display原生控制器   web网页custom自定义组件-->
+    <recommend>
+	    <!-- <node id="happy" viewType="display" title="happy" menuIcon="happy_new_year"  AndroidShow="" goodId=""/> -->
+        <!-- <node id="recommend1" viewType="display" title="test1" menuIcon="qdzl1"  AndroidShow="com.efounder.activity.ProductDetailsActivity" goodId="001296760000010"/> -->
+		<!-- <node id="recommend2" viewType="display" title="test2" menuIcon="qdzl2"  AndroidShow="com.efounder.activity.ProductDetailsActivity" goodId="001296760000010"/> -->
+		<!-- <node id="recommend3" viewType="display" title="test3" menuIcon="qdzl3"  AndroidShow="com.efounder.activity.ProductDetailsActivity" goodId="001296760000010"/> -->
+		<!-- <node id="recommend4" viewType="display" title="test4" menuIcon="qdzl4"  AndroidShow="com.efounder.activity.ProductDetailsActivity" goodId="001296760000010"/> -->
+		<!-- <node id="recommend5" viewType="display" title="test5" menuIcon="qdcy1"  AndroidShow="com.efounder.activity.ProductDetailsActivity" goodId="001296760000011"/> -->
+	</recommend> 
+	
+	<!-- 皮肤包配置 -->
+	 <skins>
+        <!-- <node id="skin1" caption='亮色主题' multiLanguageKey="skin_light_theme" skinName='light.skin' /> -->
+	     <node id="skin1" caption='暗色主题' multiLanguageKey="open_planet_skin_dark_theme" skinName='dark.skin' />
+
+	</skins> 
+</package>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:flow="http://schemas.android.com/apk/res-auto">
+
+    <com.pansoft.openplanet.widget.BackgroundViewPager
+        android:id="@+id/flowViewPager1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        flow:bg_view_pager_factor="3"
+        flow:bg_view_pager_image="@drawable/planet_bg" />
+
+    <TextView
+        android:id="@+id/tv_select_planet"
+        android:text="@string/choose_planet"
+        android:textSize="17dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/op_login_blue_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="@string/planet_cannot_change_after_choose"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_select_planet"
+        android:textSize="15dp"
+        android:textColor="@color/op_login_edit_hint_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/sun"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="-80dp"
+        android:layout_marginRight="-80dp"
+        android:paddingTop="200dp"
+        android:paddingBottom="200dp"
+        android:layout_marginBottom="-480dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_sun" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:background="@drawable/rectangle_bg_accent_trans"
+        android:text="@string/settle_the_planet"
+        android:textSize="17dp"
+        android:textColor="@color/op_login_text_white_color"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:id="@+id/sv_planet_desc"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_above="@+id/btn_confirm"
+        android:background="@drawable/rectangle_bg_accent_trans"
+        android:scrollbars="none"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_100dp">
+        <TextView
+            android:id="@+id/tv_planet_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="120dp"
+            android:padding="10dp"
+            android:text=""
+            android:textColor="@color/op_login_edit_hint_color"
+            android:textSize="14dp" />
+    </ScrollView>
+
+
+
+    <TextView
+        android:id="@+id/tv_planet"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/sv_planet_desc"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/op_login_blue_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

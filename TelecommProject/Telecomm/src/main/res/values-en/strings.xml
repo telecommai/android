@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="login_app_name">Telecomm</string>
+    <string name="pc_login_hint">PC Telecomm has logged in</string>
+    <string name="lucky_money_hint">Best Wishes</string>
+    <string name="opneplanet_start_openplanet">Start Telecomm！</string>
+    <string name="openplanet_welcome_use">Welcome to Telecomm</string>
+    <string name="guide_btn_into_app">Enter Telecomm</string>
+    <string name="scan_code_to_download">Scan code download Telecomm</string>
+    <string name="black_diamond_intro">Join the Telecomm Mine Pool</string>
+    <string name="openplanet_user">Telecomm User</string>
+    <string name="open_planet_ipcom_user">Telecomm User</string>
+    <string name="open_planet_inviate_bottom_text">Scan code registration\"Telecomm\" account</string>
+    <string name="open_planet_inviate_poster_tip1">1.Scan code registration\"Telecomm\"</string>
+    <string name="open_planet_packet_poster_tip2">2. Download \"Telecomm\" APP</string>
+    <string name="NeiKongUploadImageActivity_PCIsOutline">The Telecomm communication on the PC is not online, and the image cannot be uploaded. Please log in to your Telecomm account on the PC.</string>
+    <string name="NeiKongUploadImageActivity_PCIsOutline1">It is detected that the Telecomm communication on the PC side is not online. Only 50 points can be obtained for each image upload. After logging in to the Telecomm communication on the PC side, 100 points can be obtained for each image upload. Do you want to continue?</string>
+
+    <string name="NeiKongUploadImageActivity_PCRequestFaild">Obtaining PC-side Telecomm communication online status failed</string>
+
+
+    <!-- Activity-login -->
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_usernameEdit">User Account</string>
+    <string name="login_passwordEdit">Password</string>
+    <string name="login_Button">Log in</string>
+    <string name="login_Sign">Registered</string>
+    <string name="login_remberPassword">Remember Password</string>
+    <string name="login_autoLogin">Automatic log-in</string>
+    <string name="login_findBackPassword">Retrieve Password</string>
+    <string name="login_input_password_login">Enter password to log in</string>
+    <string name="login_sms_code_login">SMS verification code login</string>
+    <string name="login_reset_password">Reset Password</string>
+    <string name="login_please_input_password">Please enter your password</string>
+    <string name="email_time">Time:</string>
+
+
+
+    <string name="password_intro">The password is used to log in, protect the private key, and transaction authorization, and the strength is very important.
+         The system does not store passwords and cannot retrieve them for you. Please keep in mind!</string>
+    <string name="wallet_intro">The base account is your unique address on the blockchain, which is generated based on your private key.
+         Please make a backup of the private key and base account after creating the base account.</string>
+    <string name="restore_hint">Please fill in your base account "mnemonic", without your base account will not be able to recover.
+         Be sure to keep your mnemonic properly!</string>
+
+
+    <string name="choose_planet">Please choose your planet</string>
+    <string name="planet_cannot_change_after_choose">(Your planet cannot be changed after choose)</string>
+    <string name="settle_the_planet">Settle</string>
+
+    <string name="mercury_name_cn">Mercury</string>
+    <string name="venus_namec_cn">Venus</string>
+    <string name="earth_name_cn">Earth</string>
+    <string name="mars_name_cn">Mars</string>
+    <string name="jupiter_name_cn">Jupiter</string>
+    <string name="saturn_name_cn">Saturn</string>
+    <string name="uranus_name_cn">Uranus</string>
+    <string name="neptune_name_cn">Neptune</string>
+    <string name="pluto_name_cn">Pluto</string>
+    <string name="mercury_intro">English name: Mercury\n is closest to the sun and is the smallest planet in the solar system. Mercury is smaller in diameter than Ganymede and Earth
+         Wei Liu, but its quality is even greater. \nRotary track: 57,910,000 km from the sun (0.387 astronomical units)\n Mercury diameter: 4,880 km\n Quality: 3.30e23 kg\n
+     English name: Mercury\n is closest to the sun and is the smallest planet in the solar system. Mercury is smaller in diameter than Ganymede and Earth
+         Wei Liu, but its quality is even greater. \nRotary track: 57,910,000 km from the sun (0.387 astronomical units)\n Mercury diameter: 4,880 km\n Quality: 3.30e23 kg</string>
+    <string name="venus_intro">English name: Venus\n is the second closest to the sun, the sixth largest planet in the solar system. Among all planets, the orbit of Venus
+         The closest to the circle, the deviation is less than 1%. \n Orbital radius: 108,200,000 km from the sun (0.723 astronomical units)\n Planet diameter: 12,103.6 km\n Quality: 4.869e24 kg</string>
+    <string name="earth_intro">English name: Earth\n Our home is the third planet in the solar system from the inside to the outside, and the fifth largest planet in the solar system. \n
+         Orbital radius: 149,600,000 km (from the sun 1.00 astronomical unit \n planetary diameter: 12,742 km \n quality: 5.9736e24 kg</string>
+    <string name="mars_intro">English name: Mars \n is the fourth largest from the sun and the seventh largest planet in the solar system. It is also called the fire in ancient China because Mars is
+         Red, fluorescing like fire, brightness often changes; and moving in the sky, sometimes from west to east, sometimes from east to west, the situation is complicated and confusing, so ancient China called
+         It is "flooding", and it has the meaning of "fluorescence, detachment, confusion." \n Rotary track: 227,940,000 km from the sun (1.52 astronomical unit\n planet diameter: 6,794
+         Kilometers \n quality: 6.4219e23 kg.</string>
+    <string name="jupiter_intro">English name: Jupiter \n is the fifth planet from the sun, and is the largest one, and the quality of all other planets
+         2.5 times larger (318 times the Earth). \n Rotary track: 778,330,000 km from the sun (5.20 astronomical units)\n Planet diameter: 142,984 km (equator)\n
+         Quality: 1.900e27 kg</string>
+    <string name="saturn_intro">English name: Saturn\n is the sixth farther from the sun and the second largest of the eight planets. \n revolution track: distance
+         Sun 1,429,400,000 km (9.54 astronomical units)\n Planet diameter: 120,536 km (equator)\n Quality: 5.68e26 kg</string>
+    <string name="uranus_intro">English name: Uranus\n is the seventh largest planet in the solar system from the sun. From the perspective of diameter, it is the third largest planet in the solar system. day
+         Wang Xing is larger than Neptune, but its quality is smaller than it. \nRotary track: 2,870,990,000 km from the sun (19.218 astronomical units)\n Planet diameter: 51
+         , 118 km (equatorial)\n quality: 8.683e25 kg</string>
+    <string name="neptune_intro">English name: Neptune\n is the eighth planet that orbits the sun and is the fourth largest object in the solar system (on the diameter).
+         Neptune is smaller than Uranus in diameter, but its mass is greater than it. \nRotary track: 4,504,000,000 km from the sun (30.10 astronomical units)\n Planetary diameter
+         : 49,532 km (equatorial)\n quality: 1.0247e26 kg</string>
+    <string name="pluto_intro">English name: Pluto\nPluto is the ancient Roman mythology Pluto (Hardis Hades in Greek mythology)\n historically
+         It is believed that Pluto is the farthest and smallest planet from the sun. It symbolizes Hades in the Greek mythology. It is the brother of Zeus. After being taken away by the younger brother, he fell to the throne.
+         Underworld. Pluto has three moons. There are seven satellites in the solar system that are larger than Pluto (Lunar, Io, Europa, Ganymede, Ganymede, Titan, and Triton). \n
+         Orbital track: average distance from the sun 5,913,520,000 km (39.5 astronomical units)\n diameter: 2370 km\n mass: 1.27e22 kg</string>
+    <!--  -->
+
+    <string name="chat_number">Account Number</string>
+    <string name="im_chat_number">InterPlanet ID</string>
+    <string name="showNumberText">InterPlanet ID</string>
+
+    <string name="chat_room_name">tribe</string>
+    <string name="group_notification">InterPlanet Notification</string>
+    <string name="chatgroupsettingactivity_qh">Tribe ID:</string>
+    <string name="chatgroupsettingactivity_qname">Tribal Name</string>
+    <string name="chat_group_info">Tribal Information</string>
+    <string name="chatroom_exit_cannot_exit">Tribe creators cannot exit the tribe</string>
+    <string name="chatroom_num">InterPlanet tribe</string>
+    <string name="chatgroupsettingactivity_string1">My alias in tribe</string>
+    <string name="chatgroupsettingactivity_englishname">Tribal English Name</string>
+    <string name="chatgroupsettingactivity_recommend">Tribal Introduction</string>
+    <string name="chatgroupsettingactivity_string2">Tribal Member</string>
+    <string name="chatgroupsettingactivity_string3">Tribal Work Address</string>
+    <string name="chatgroupsettingactivity_string4">Creation Time</string>
+    <!--<string name="chatgroupsettingactivity_string5">屏蔽部落消息</string>-->
+    <string name="chatgroupsettingactivity_string6">\'This group was created in\' MM-dd-yyyy</string>
+    <string name="chatgroupsettingactivity_string7">Set your nickname in the tribe, this nickname will only show up in this tribe</string>
+    <string name="chatgroupsettingactivity_string8">Please enter a new tribal name</string>
+    <string name="chatgroupsettingactivity_string9">Modify tribal avatar</string>
+    <string name="chatgroupsettingactivity_string10">Failed to get tribal members</string>
+    <string name="chatgroupsettingactivity_string11"> Are you sure you want to dissolve the tribe?</string>
+    <string name="chatgroupsettingactivity_string12">Share Tribe</string>
+
+    <string name="wechatview_serach_hint_group">Search for tribe ID/tribe name</string>
+    <string name="wechatview_serach_group_menu1">Find the Tribe</string>
+    <string name="wechatview_serach_group_menu2">Find more Tribes</string>
+    <string name="leak_canary_display_activity_label">InterPlanet communication Leaks</string>
+    <string name="zone_message_hint">Gravitational field dynamics:</string>
+    <string name="wechatview_input_group_recommend">Please enter the tribal introduction</string>
+    <string name="wechatview_no_group_recommend">No tribe introduction</string>
+    <string name="wechatview_grouprecommend_title">Tribal introduction</string>
+    <string name="wechatview_input_group_english_name">Please enter the tribal English name</string>
+    <string name="wechatview_add_group_error1">The tribe does not exist or the link has expired</string>
+    <string name="im_apply_add_group_text">Are you sure you want to apply to join the tribe?</string>
+    <string name="im_add_group_text">Are you sure you want to join the tribe?</string>
+    <string name="im_appy_add_group_fail">Applying to join the tribe failed</string>
+    <string name="im_add_group_fail">Joining the Horde failed</string>
+    <string name="im_appy_add_group_success">Send the application successfully, please wait for the owner or administrator to review</string>
+    <string name="im_add_group_success">Join the tribe successfully</string>
+    <string name="im_add_group_request">Plus tribe application</string>
+    <string name="im_money_prepare_tip_3">The tribe has %1$s people</string>
+    <!--<string name="im_red_package_detail_tip">%1$s个红包共%2$s%3$s，%4$s秒被抢光</string>-->
+    <string name="im_create_group">Create Tribe</string>
+    <string name="im_select_group_user">Select Contact</string>
+    <string name="wechatview_select_group_user">Select Tribal Members</string>
+
+    <!--友盟分享自定义菜单-->
+    <string name="ushare_copy_url">Copy Link</string>
+    <string name="ushare_system">System Sharing</string>
+
+    <!--页面文字-->
+    <string name="opneplanet_have_no_message">You have no news yet!</string>
+    <string name="opneplanet_every_has_possiable">Anything can happen!</string>
+    <string name="opneplanet_access">Skip</string>
+    <string name="openplanet_input_sms_code">Enter SMS verification code</string>
+    <string name="openplanet_input_email_code">Enter mailbox verification code</string>
+    <string name="openplanet_input_sms_code1">Please enter SMS verification code</string>
+    <string name="openplanet_get_sms_code">Get verification code</string>
+    <string name="openplanet_input_sms_code_tip">By clicking the "Get Verification Code" button,+86 %1$s sending text verify code</string>
+    <string name="openplanet_input_authentication_fail">verification failed</string>
+    <string name="openplanet_again_send">Resend</string>
+    <string name="openplanet_sendsms_fail">Failed to send verification code, please try again later</string>
+    <string name="openplanet_has_send_sms_code">Already to+86 %1$s sending text verify code</string>
+    <string name="openplanet_please_input_correct_number">Please enter the correct phone number</string>
+    <string name="openplanet_please_input_correct_email">Please input the correct email address</string>
+    <string name="openplanet_please_input_correct_account">Please enter the correct account number</string>
+    <string name="openplanet_welcome_use1">In order to provide you with better service, please enter your account</string>
+    <string name="openplanet_welcome_use_email">In order to provide you with better service, please enter your email address.</string>
+
+    <string name="openplanet_is_sync_wallet">Syncing wallet..</string>
+
+    <!--进群的群通知-->
+    <string name="wechatview_invite_to_group">%1$s invited %2$s into the tribe</string>
+    <string name="wechatview_free_to_group">%1$s joined the tribe</string>
+    <string name="wechatview_agree_to_group">%1$s agreed %2$s join the tribe\'s application</string>
+    <!--<string name="openplanet_input_authentication_fail">验证失败</string>-->
+    <!--<string name="openplanet_input_authentication_fail">验证失败</string>-->
+
+    <!--引导页-->
+    <string name="guide_tv_quanlian">Full Chain</string>
+    <string name="guide_tv_all_platform">Full Platform</string>
+    <string name="wechatview_group_card">Tribal Business Card</string>
+
+    <string name="guide_tv_mining">Mining</string>
+    <string name="guide_tv_encrypted_communication">Encrypted Communication</string>
+    <string name="guide_tv_digital_asset">Digital Assets</string>
+    <string name="guide_dialog__check_baseid_error_hint">It is detected that your local base ID does not match the server. Please log in again to create or restore the base account.</string>
+    <string name="guide_tv_function_introduction">Function Introduction</string>
+
+    <!--OpenUShareHelper-->
+    <string name="openplanet_share_helper_contacts">Contact</string>
+    <string name="openplanet_share_helper_sina">Sina</string>
+    <string name="openplanet_share_helper_wechat">WeChat</string>
+    <string name="openplanet_share_helper_wxcircle">WeChat Circle</string>
+    <string name="openplanet_share_helper_wechatfavorite">WeChat Collection</string>
+    <string name="openplanet_share_helper_qq">QQ</string>
+    <string name="openplanet_share_helper_qzone">Qzone</string>
+    <string name="openplanet_share_helper_copy_url">Copy</string>
+    <string name="openplanet_share_helper_share_system">System</string>
+    <string name="openplanet_share_helper_open_browber">Browser</string>
+    <!--群通知-->
+    <string name="wechatview_group_notification_1">..tribe</string>
+    <string name="wechatview_group_notification_group">Tribe</string>
+    <string-array name="red_dot_app_list">
+        <!-- yin li chang-->
+        <!--<item>210656</item>-->
+        <!--<item>210666</item>-->
+    </string-array>
+
+    <!--SecretSafeDialog-->
+    <string name="wechatview_secret_please_input_pwd">Please enter the base password</string>
+    <string name="wechatview_secret_dialog_tips">Base password is used to decrypt the password of the message</string>
+<!--webview的useragent-->
+    <string name="web_user_agent_plat_form">ipcom</string>
+    <!--登录相关-->
+    <string name="op_login_email">Mailbox</string>
+    <string name="op_login_phone">Phone Number</string>
+    <string name="common_text_please_input_email">Please input your email</string>
+    <string name="open_planet_welcome_permission_denied">Permission denied, APP does not work properly</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="notifyMsg">Permission not granted.\n\nClick\"Setting\"-\"Permission\"-to grant the permission</string>
+    <string name="gpsNotifyMsg">GPS needed.\n\nClick\"Setting\"-\"Location Service\"-to open GPS service.</string>
+</resources>

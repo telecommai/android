@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#1b82d2</color>
+    <color name="chat_red">#1b82d2</color>
+    <color name="red_ios">#1b82d2</color>
+    <color name="chat_red_dark">#1b82d2</color>
+    <!--按钮按下后的深颜色-->
+    <color name="chat_red_deep">#1b82d2</color>
+    <color name="black_deep_chat">#FF2b322e</color>
+    <color name="email_main_color">#1b82d2</color>
+    <color name="indicator">#1b82d2</color>
+    <!--pageslidetab2fragment-->
+    <color name="title_NormalTextColor">#68BADC</color>
+    <color name="title_SelectTextColor">#FFFFFF</color>
+
+    <color name="title_TextColor">#ffffff</color>
+    <color name="title_Background">#1b82d2</color>
+    <color name="title_UnderLineColor">#1b82d2</color>
+
+    <color name="tc_bg_gray">#edf0f3</color>
+    <color name="tc_orange_color">#f7931e</color>
+    <color name="tc_blue_color">#008ee9</color>
+
+    <!--消息wechatvie颜色配置-->
+    <!--聊天文字消息背景色-->
+    <color name="text_message_color">#1B82D2</color>
+    <!--发出去的消息字体颜色-->
+    <color name="wechat_send_message_text_color">@color/white</color>
+    <!--消息 link textcolor 比如网址 超链接-->
+    <color name="chat_link_text_color">#80e9ff</color>
+    <!--消息wechatvie颜色配置结束-->
+
+
+
+    <!--以下为商城的颜色-->
+    <!--按钮颜色-->
+    <color name="btn_default_color">#0099ff</color>
+    <!--文字强调显示的颜色-->
+    <color name="text_accent_color">#0099ff</color>
+
+    <color name="mall_progress_bar_bg">#0099ff</color>
+    <color name="mall_color_trans_blue">#800099ff</color>
+    <color name="mall_color_yellow">#ff9933</color>
+    <color name="mall_color_orange">#ffca7f</color>
+    <color name="mall_color_trans_yellow">#80ff9933</color>
+    <color name="mall_color_blue">#0099ff</color>
+    <color name="mall_pb_buying_progress">#f08e8d</color>
+    <color name="mall_btn_immediately_panic_buy">#de4037</color>
+    <color name="mall_color_selector_blue">#800099ff</color>
+    <color name="mall_color_selector_disable_blue">#80365e96</color>
+    <!-- 商城颜色配置结束-->
+
+    <!--以下为星际颜色配置-->
+    <color name="op_primary_bg_color">#F5F5F5</color>
+    <color name="op_second_bg_color">#ffffff</color>
+    <color name="op_float_window_color">#ffffff</color>
+    <color name="op_orange_color">#cc7a1f</color>
+    <color name="op_blue_color">#108ee9</color>
+    <color name="op_text_white_color">#ffffff</color>
+    <color name="op_edit_hint_color">#6a82a5</color>
+    <!--<color name="op_divider_line_color">@color/divide_line_color</color>-->
+    <color name="op_button_blue_background">#165da3</color>
+
+    <!-- fragmentMy的上部图片背景颜色 -->
+    <color name="op_fragment_my_top_background">#1b82d2</color>
+
+    <!-- 文字强调色-->
+    <color name="op_text_accent_color">#1b82d2</color>
+    <!-- 带主题背景的文字强调色 -->
+    <color name="op_text_accent_color_with_background">#fff</color>
+    <!-- 文字次要色-->
+    <color name="op_text_sub_color">#338cd1</color>
+    <!-- 带主题背景的文字次要色-->
+    <color name="op_text_sub_color_with_background">#f5f5f5</color>
+    <color name="op_text_yellow_color">#ffca7f</color>
+    <color name="op_text_base_blue_color">#16497c</color>
+    <color name="op_text_base_light_color">#44608a</color>
+    <color name="op_text_base_light_color_with_bg">#ffffff</color>
+
+    <color name="op_base_divider_color">#415a7e</color>
+
+    <!--相当于frame_gray_background_color-->
+    <color name="op_item_bg_color">#0B1D37</color>
+
+    <color name="op_bonus_color">#fcaf0b</color>
+
+    <!--星际通讯登录页面颜色配置-->
+    <color name="op_login_primary_bg_color">#F5F5F5</color>
+    <color name="op_login_primary_bg_trans_color">#d0183257</color>
+    <color name="op_login_float_window_color">#ffffff</color>
+    <color name="op_login_orange_color">#cc7a1f</color>
+    <color name="op_login_blue_color">#108ee9</color>
+    <color name="op_login_text_white_color">#ffffff</color>
+    <color name="op_login_edit_hint_color">#6a82a5</color>
+    <color name="op_login_divider_line_color">#6a82a5</color>
+    <color name="op_login_button_blue_background">#1b82d2</color>
+    <!--空投场-->
+    <color name="airdrop_list_item_bg_color">#ffffff</color>
+    <!-- 星际颜色配置结束-->
+
+    <color name="common_item_bg_color">#118EEA</color>
+    <color name="common_item_bottom_bg_color">#33000000</color>
+    <color name="common_item_text_title">#ffffff</color>
+    <color name="common_item_text">#ffffff</color>
+
+    <!--//行情-->
+    <color name="chart_main_white_or_black">#000000</color>
+    <color name="chart_text_no_data_hint">#a0ffffff</color>
+
+    <!--侧滑栏界面白色背景-->
+    <color name="left_drawer_frame_white_background_color">#ffffff</color>
+    <!--侧滑栏界面浅灰色背景-->
+    <color name="left_drawer_frame_gray_background_color">@color/text_accent_color</color>
+    <!--侧滑栏黑色字体颜色-->
+    <color name="left_drawer_black_text_color">#ffffff</color>
+    <!--侧滑栏浅灰色字体颜色-->
+    <color name="left_drawer_light_text_color">#999999</color>
+    <!--侧滑栏白色字体颜色-->
+    <color name="left_drawer_white_text_color">#666666</color>
+</resources>

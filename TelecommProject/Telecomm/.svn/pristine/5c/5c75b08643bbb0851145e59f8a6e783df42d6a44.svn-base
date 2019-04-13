@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="extEdge_Menu" caption="移动菜单设置">
+    <extEdgeMenuRoot>
+        <node id="dwzzb" caption="党委组织部" menuIcon="dwzzb.png" charSet ="gbk"   layout="2" viewType="webView" url="http://10.75.1.12/bmdh/jdwzzb/default.aspx" checked="1"/>
+        <node id="dwxcb" caption="党委宣传部" menuIcon="dwxcb.png" charSet ="gbk"   layout="2" viewType="webView" url="http://10.75.1.12/bmdh/dwxcb/default.aspx" checked="1"/>
+        <node id="ytzgj" caption="局工会" menuIcon="ytzgj.png" charSet ="gbk"   layout="2" viewType="webView" url="http://10.75.1.12/bmdh/ytgh/default.aspx" checked="1"/>
+        <node id="ytlt" caption="油田论坛" menuIcon="ytlt.png" charSet ="gbk"   layout="2" viewType="webView" url="http://10.75.0.57/" checked="1"/>
+        <node id="ghjhb" caption="规划计划部" menuIcon="ghjhb.png" charSet ="gbk"   layout="2" viewType="webView" url="http://10.75.1.12/bmdh/ghjhb/default.aspx" checked="0"/>
+        <node id="shfw" caption="社会化服务办公室" menuIcon="shfw.png" charSet ="gbk"   layout="2" viewType="webView" url="http://10.75.1.12/bmdh/sfb/default.aspx" />
+        <node id="menuMore" caption="更多" menuIcon="menu_icon_more.png" charSet ="gbk"  layout="2" viewType="menuMore" />
+    </extEdgeMenuRoot>
+</package>

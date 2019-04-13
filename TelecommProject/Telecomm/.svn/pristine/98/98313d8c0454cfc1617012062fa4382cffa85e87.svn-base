@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 使用说明： -->
+<!--消息长按弹出的菜单配置-->
+<package id="mobile_menu" caption="移动菜单设置">
+
+<!--messageTypeId 表示消息类型-->
+	<ChatMessageMenu>
+		<node id="subtype_text" caption="文字消息" messageTypeId="0"/>
+		<node id="subtype_image" caption="图片消息"  messageTypeId="1"/>
+		<node id="subtype_file" caption="文件消息"  messageTypeId="5"/>
+		<node id="subtype_form" caption="表单消息"  messageTypeId="31"/>
+		<node id="subtype_format_text" caption="@消息"  messageTypeId="11"/>
+	</ChatMessageMenu>
+
+	<subtype_text> 
+	<!--id 字段的值不能随便改，每种功能的名字是固定的-->
+		<node id="copyMessage" caption="复制消息" multiLanguageKey="tab_menu_chat_copy_message" /> 
+		<node id="deleteMessage" caption="删除消息" multiLanguageKey="tab_menu_chat_delete_message" /> 
+		<node id="shareMessage" caption="发送给好友" multiLanguageKey="tab_menu_chat_send_friend" /> 
+	</subtype_text>
+
+	<subtype_image> 
+		<node id="saveImage" caption="保存图片" multiLanguageKey="tab_menu_chat_save_image" /> 
+		<node id="deleteMessage" caption="删除消息" multiLanguageKey="tab_menu_chat_delete_message" /> 
+		<node id="shareMessage" caption="发送给好友" multiLanguageKey="tab_menu_chat_send_friend" /> 
+	</subtype_image>
+
+	<subtype_file> 
+		<node id="fileLocation" caption="文件位置"  multiLanguageKey="tab_menu_chat_file_location"/> 
+		<node id="deleteMessage" caption="删除消息"  multiLanguageKey="tab_menu_chat_delete_message"/> 
+		<node id="shareMessage" caption="发送给好友" multiLanguageKey="tab_menu_chat_send_friend"/> 
+	</subtype_file>
+
+	<subtype_form> 
+		<node id="searchFormMessage" caption="查询" multiLanguageKey="tab_menu_chat_query" /> 
+	</subtype_form>
+
+	<subtype_format_text> 
+		<node id="copyMessage" caption="复制消息" multiLanguageKey="tab_menu_chat_copy_message"/> 
+		<node id="deleteMessage" caption="删除消息" multiLanguageKey="tab_menu_chat_delete_message" /> 
+	</subtype_format_text>
+
+</package>
